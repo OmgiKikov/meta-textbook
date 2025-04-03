@@ -9,17 +9,20 @@ from typing import List, Dict, Any
 import os # Import os for path joining
 # Import the new storage functions
 from graph_storage import save_graph_to_json, load_graph_from_json
-# Import the main pipeline function
-from pipeline import build_graph_from_files
+# Import the main pipeline function (commented out since we don't use it now)
+# from pipeline import build_graph_from_files
 import logging
 
-# --- PDF Parsing Dependency ---
+# --- PDF Parsing Dependency (commented out since we don't need it now) ---
+"""
 try:
     import fitz  # PyMuPDF
 except ImportError:
     st.error("PyMuPDF is not installed. Please install it: pip install pymupdf")
     fitz = None # Set to None if import fails
+"""
 # --- End PDF Parsing Dependency ---
+fitz = None # Set to None since we don't use PDF parsing
 
 logger = logging.getLogger(__name__)
 if not logger.handlers:
@@ -290,9 +293,10 @@ def visualize_graph(G, min_strength_filter: int = 1, active_filters: dict = None
         st.error(f"Error generating graph visualization: {e}")
         return ""
 
-# --- PDF Text Extraction Helper ---
+# --- PDF Text Extraction Helper (commented out since we don't use it now) ---
+"""
 def extract_text_from_pdf(file_content: bytes) -> str:
-    """Extracts text from PDF file content using PyMuPDF."""
+    # Extracts text from PDF file content using PyMuPDF.
     text = ""
     if not fitz:
         st.error("PDF processing requires PyMuPDF. Please install it: pip install pymupdf")
@@ -306,6 +310,7 @@ def extract_text_from_pdf(file_content: bytes) -> str:
         logger.error(f"Error reading PDF file: {e}", exc_info=True)
         return ""
     return text
+"""
 # --- End PDF Helper ---
 
 # --- Streamlit App UI ---
@@ -331,7 +336,7 @@ with key_col2:
     openai_api_key_embed = st.text_input("OpenAI API Key (for Embeddings):", type="password", key="api_key_input_oai")
 
 # --- Processing Button ---
-process_button_clicked = st.button("🚀 Process Files & Build Graph", key="process_button")
+process_button_clicked = st.button("🚀 Process Files & Build Graph", key="process_button", disabled=True)
 
 # --- Filtering Controls (Now separate from main input) ---
 st.sidebar.title("Display Options")
@@ -345,10 +350,11 @@ load_button_clicked = st.sidebar.button("📂 Load Graph from JSON", key="load_b
 
 # Placeholder for graph
 graph_placeholder = st.empty()
-graph_placeholder.markdown("<p style='text-align: center; color: grey;'>Graph will appear here after processing.</p>", unsafe_allow_html=True)
+graph_placeholder.markdown("<p style='text-align: center; color: grey;'>Graph will appear here after loading.</p>", unsafe_allow_html=True)
 
 # --- Logic ---
-# Handle Process button click
+# Handle Process button click - ОТКЛЮЧЕНО, т.к. кнопки загрузки файлов отключены
+"""
 if process_button_clicked:
     # --- Input Validation ---
     if not openrouter_api_key:
@@ -432,6 +438,7 @@ if process_button_clicked:
                     st.session_state['analysis_complete'] = False
         elif valid_files: # Files were read OK but content extraction failed (e.g., empty PDF text)
              st.warning("Could not get valid text content from one or both files.")
+"""
 
 # Handle Save/Load buttons (Now checks the sidebar button state)
 if save_button_clicked:
