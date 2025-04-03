@@ -337,91 +337,91 @@ graph_placeholder.markdown("<p style='text-align: center; color: grey;'>Graph wi
 
 # --- Logic ---
 # Handle Process button click - ОТКЛЮЧЕНО, т.к. кнопки загрузки файлов отключены
-"""
-if process_button_clicked:
-    # --- Input Validation ---
-    if not openrouter_api_key:
-        st.warning("Please enter your OpenRouter API key (for Chat Model).")
-    elif not openai_api_key_embed:
-        st.warning("Please enter your OpenAI API key (for Embeddings).")
-    elif not rp_file:
-        st.warning("Please upload the Work Program (RP) file.")
-    elif not book_file:
-        st.warning("Please upload the Book file.")
-    elif fitz is None and (rp_file.type == "application/pdf" or book_file.type == "application/pdf"):
-         st.error("PyMuPDF is required to process PDF files but is not installed or failed to import.")
-    else:
-        # --- File Reading and Text Extraction ---
-        rp_content = ""
-        book_content = ""
-        valid_files = True
+# """
+# if process_button_clicked:
+#     # --- Input Validation ---
+#     if not openrouter_api_key:
+#         st.warning("Please enter your OpenRouter API key (for Chat Model).")
+#     elif not openai_api_key_embed:
+#         st.warning("Please enter your OpenAI API key (for Embeddings).")
+#     elif not rp_file:
+#         st.warning("Please upload the Work Program (RP) file.")
+#     elif not book_file:
+#         st.warning("Please upload the Book file.")
+#     elif fitz is None and (rp_file.type == "application/pdf" or book_file.type == "application/pdf"):
+#          st.error("PyMuPDF is required to process PDF files but is not installed or failed to import.")
+#     else:
+#         # --- File Reading and Text Extraction ---
+#         rp_content = ""
+#         book_content = ""
+#         valid_files = True
 
-        try:
-            logger.info(f"Reading RP file: {rp_file.name} (Type: {rp_file.type})")
-            rp_bytes = rp_file.read()
-            if rp_file.type == "application/pdf":
-                rp_content = extract_text_from_pdf(rp_bytes)
-                if not rp_content:
-                    st.error(f"Could not extract text from RP PDF: {rp_file.name}")
-                    valid_files = False
-            else: # Assume text-based (txt, md)
-                rp_content = rp_bytes.decode("utf-8")
-        except Exception as e:
-            st.error(f"Error reading RP file {rp_file.name}: {e}")
-            logger.error(f"Error reading RP file {rp_file.name}: {e}", exc_info=True)
-            valid_files = False
+#         try:
+#             logger.info(f"Reading RP file: {rp_file.name} (Type: {rp_file.type})")
+#             rp_bytes = rp_file.read()
+#             if rp_file.type == "application/pdf":
+#                 rp_content = extract_text_from_pdf(rp_bytes)
+#                 if not rp_content:
+#                     st.error(f"Could not extract text from RP PDF: {rp_file.name}")
+#                     valid_files = False
+#             else: # Assume text-based (txt, md)
+#                 rp_content = rp_bytes.decode("utf-8")
+#         except Exception as e:
+#             st.error(f"Error reading RP file {rp_file.name}: {e}")
+#             logger.error(f"Error reading RP file {rp_file.name}: {e}", exc_info=True)
+#             valid_files = False
 
-        if valid_files:
-            try:
-                logger.info(f"Reading Book file: {book_file.name} (Type: {book_file.type})")
-                book_bytes = book_file.read()
-                if book_file.type == "application/pdf":
-                    book_content = extract_text_from_pdf(book_bytes)
-                    if not book_content:
-                        st.error(f"Could not extract text from Book PDF: {book_file.name}")
-                        valid_files = False
-                else: # Assume text-based (txt, md)
-                    book_content = book_bytes.decode("utf-8")
-            except Exception as e:
-                st.error(f"Error reading Book file {book_file.name}: {e}")
-                logger.error(f"Error reading Book file {book_file.name}: {e}", exc_info=True)
-                valid_files = False
+#         if valid_files:
+#             try:
+#                 logger.info(f"Reading Book file: {book_file.name} (Type: {book_file.type})")
+#                 book_bytes = book_file.read()
+#                 if book_file.type == "application/pdf":
+#                     book_content = extract_text_from_pdf(book_bytes)
+#                     if not book_content:
+#                         st.error(f"Could not extract text from Book PDF: {book_file.name}")
+#                         valid_files = False
+#                 else: # Assume text-based (txt, md)
+#                     book_content = book_bytes.decode("utf-8")
+#             except Exception as e:
+#                 st.error(f"Error reading Book file {book_file.name}: {e}")
+#                 logger.error(f"Error reading Book file {book_file.name}: {e}", exc_info=True)
+#                 valid_files = False
 
-        # --- Pipeline Execution ---
-        if valid_files and rp_content and book_content:
-            with st.spinner("Processing files and building graph... This may take a while!"):
-                try:
-                    logger.info("Calling main pipeline function...")
-                    # Pass both API keys to the pipeline function
-                    structured_data = build_graph_from_files(
-                        rp_content,
-                        book_content,
-                        openrouter_api_key=openrouter_api_key, # Key for chat model via OpenRouter
-                        openai_api_key=openai_api_key_embed   # Key for embeddings via direct OpenAI
-                    )
+#         # --- Pipeline Execution ---
+#         if valid_files and rp_content and book_content:
+#             with st.spinner("Processing files and building graph... This may take a while!"):
+#                 try:
+#                     logger.info("Calling main pipeline function...")
+#                     # Pass both API keys to the pipeline function
+#                     structured_data = build_graph_from_files(
+#                         rp_content,
+#                         book_content,
+#                         openrouter_api_key=openrouter_api_key, # Key for chat model via OpenRouter
+#                         openai_api_key=openai_api_key_embed   # Key for embeddings via direct OpenAI
+#                     )
 
-                    # Check pipeline result (returns None on major internal errors now)
-                    if structured_data is None:
-                        st.error("Pipeline execution failed. Check logs for details.")
-                        st.session_state['analysis_complete'] = False
-                    elif structured_data.get("nodes") or structured_data.get("edges"): # Check if it has data
-                        st.session_state['structured_data'] = structured_data
-                        st.session_state['analysis_complete'] = True
-                        st.success("Processing complete! Displaying graph.")
-                        st.rerun()
-                    else: # Pipeline finished but returned empty dict
-                        st.warning("Pipeline finished but returned no graph data (Nodes or Edges).")
-                        st.session_state['structured_data'] = {"nodes": [], "edges": []} # Store empty data
-                        st.session_state['analysis_complete'] = True # Allow displaying empty state
-                        st.rerun()
+#                     # Check pipeline result (returns None on major internal errors now)
+#                     if structured_data is None:
+#                         st.error("Pipeline execution failed. Check logs for details.")
+#                         st.session_state['analysis_complete'] = False
+#                     elif structured_data.get("nodes") or structured_data.get("edges"): # Check if it has data
+#                         st.session_state['structured_data'] = structured_data
+#                         st.session_state['analysis_complete'] = True
+#                         st.success("Processing complete! Displaying graph.")
+#                         st.rerun()
+#                     else: # Pipeline finished but returned empty dict
+#                         st.warning("Pipeline finished but returned no graph data (Nodes or Edges).")
+#                         st.session_state['structured_data'] = {"nodes": [], "edges": []} # Store empty data
+#                         st.session_state['analysis_complete'] = True # Allow displaying empty state
+#                         st.rerun()
 
-                except Exception as e:
-                    st.error(f"An unexpected error occurred during pipeline execution: {e}")
-                    logger.error(f"Pipeline execution failed: {e}", exc_info=True)
-                    st.session_state['analysis_complete'] = False
-        elif valid_files: # Files were read OK but content extraction failed (e.g., empty PDF text)
-             st.warning("Could not get valid text content from one or both files.")
-"""
+#                 except Exception as e:
+#                     st.error(f"An unexpected error occurred during pipeline execution: {e}")
+#                     logger.error(f"Pipeline execution failed: {e}", exc_info=True)
+#                     st.session_state['analysis_complete'] = False
+#         elif valid_files: # Files were read OK but content extraction failed (e.g., empty PDF text)
+#              st.warning("Could not get valid text content from one or both files.")
+# """
 
 # Handle Save/Load buttons (Now checks the sidebar button state)
 if save_button_clicked:
