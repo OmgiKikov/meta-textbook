@@ -1,4 +1,7 @@
 import streamlit as st
+# --- Configuration ---
+st.set_page_config(layout="wide", page_title="Textbook Chapter Analyzer")
+
 import networkx as nx
 from pyvis.network import Network
 import json
@@ -13,24 +16,19 @@ from graph_storage import save_graph_to_json, load_graph_from_json
 # from pipeline import build_graph_from_files
 import logging
 
-# --- PDF Parsing Dependency (commented out since we don't need it now) ---
-"""
-try:
-    import fitz  # PyMuPDF
-except ImportError:
-    st.error("PyMuPDF is not installed. Please install it: pip install pymupdf")
-    fitz = None # Set to None if import fails
-"""
-# --- End PDF Parsing Dependency ---
-fitz = None # Set to None since we don't use PDF parsing
+# PDF Parsing отключен, так как не используется
+# try:
+#     import fitz  # PyMuPDF
+# except ImportError:
+#     st.error("PyMuPDF is not installed. Please install it: pip install pymupdf")
+#     fitz = None # Set to None if import fails
 
 logger = logging.getLogger(__name__)
 if not logger.handlers:
     # Configure logging (optional, could be done in pipeline too)
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# --- Configuration ---
-st.set_page_config(layout="wide", page_title="Textbook Chapter Analyzer")
+# Directory and file paths
 GRAPH_DIR = "saved_graphs" # Directory to save/load graphs
 NODES_FILE = os.path.join(GRAPH_DIR, "nodes.json")
 EDGES_FILE = os.path.join(GRAPH_DIR, "edges.json")
@@ -293,25 +291,10 @@ def visualize_graph(G, min_strength_filter: int = 1, active_filters: dict = None
         st.error(f"Error generating graph visualization: {e}")
         return ""
 
-# --- PDF Text Extraction Helper (commented out since we don't use it now) ---
-"""
-def extract_text_from_pdf(file_content: bytes) -> str:
-    # Extracts text from PDF file content using PyMuPDF.
-    text = ""
-    if not fitz:
-        st.error("PDF processing requires PyMuPDF. Please install it: pip install pymupdf")
-        return ""
-    try:
-        with fitz.open(stream=file_content, filetype="pdf") as doc:
-            for page in doc:
-                text += page.get_text()
-    except Exception as e:
-        st.error(f"Error reading PDF file: {e}")
-        logger.error(f"Error reading PDF file: {e}", exc_info=True)
-        return ""
-    return text
-"""
-# --- End PDF Helper ---
+# PDF Text Extraction Helper отключен, так как не используется
+# def extract_text_from_pdf(file_content: bytes) -> str:
+#     """Extracts text from PDF file content using PyMuPDF."""
+#     ...
 
 # --- Streamlit App UI ---
 st.title("📚 Meta-Textbook Graph Builder")
