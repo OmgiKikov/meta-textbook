@@ -20,8 +20,11 @@ import re # Import re for subject/grade extraction
 try:
     import chromadb
     from chromadb.api.models.Collection import Collection # For type hinting
+    has_chromadb = True
 except ImportError:
-    raise ImportError("ChromaDB is not installed. Please install it using: pip install chromadb")
+    logger.warning("ChromaDB is not installed. Some features might be limited.")
+    Collection = Any  # Use Any as fallback for type hints
+    has_chromadb = False
 
 import openai # Import openai
 from openai import OpenAI, AuthenticationError # Import client and specific error
