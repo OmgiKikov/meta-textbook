@@ -1,0 +1,6481 @@
+[
+  {
+    "id": "edge_557f73af-6388-4ca7-a3d6-dc61e6d83b86_0",
+    "source_id": "rp_node_вода_57",
+    "target_id": "node_vodorodnaya_svyaz",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "Молекулы воды связаны между собой водородными связями",
+    "chunks": [
+      "chunk_0"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_83283c11-2a07-408c-9247-cd3db25c6e30_1",
+    "source_id": "node_vodorodnaya_svyaz",
+    "target_id": "node_kovalentnaya_svyaz",
+    "relation_type": "comparative",
+    "strength": 4,
+    "description": "Водородная связь является менее прочной по сравнению с ковалентной — она слабее примерно в 20 раз",
+    "chunks": [
+      "chunk_0"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_830a846c-17c4-4d56-b18b-794d6af5442a_2",
+    "source_id": "node_vodorodnaya_svyaz",
+    "target_id": "node_teploemkost",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "Наличие водородных связей между молекулами воды обеспечивает её структурированность, что объясняет высокую теплоёмкость",
+    "chunks": [
+      "chunk_0"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_3a7a3454-62c5-428a-bca0-4b3350d7283d_3",
+    "source_id": "node_teploemkost",
+    "target_id": "rp_node_вода_57",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "Высокая теплоёмкость воды предохраняет клетку от резких температурных колебаний",
+    "chunks": [
+      "chunk_0"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_091c3239-4ef7-4be2-95dc-74a2c65b1a22_4",
+    "source_id": "node_teploprovodnost",
+    "target_id": "rp_node_вода_57",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "Высокая теплопроводность воды обеспечивает возможность равномерного распределения теплоты между отдельными частями организма",
+    "chunks": [
+      "chunk_0"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_966951a1-8bca-4001-9fd0-27d881f0845f_5",
+    "source_id": "node_teplota_ispareniya",
+    "target_id": "rp_node_вода_57",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "Высокая теплота испарения воды используется живыми организмами для предохранения от перегрева",
+    "chunks": [
+      "chunk_0"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_def5b195-8345-40b7-ac1d-512fb80c1499_6",
+    "source_id": "rp_node_вода_57",
+    "target_id": "node_dipol",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "Молекулы воды являются диполями",
+    "chunks": [
+      "chunk_0"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_43d8524e-b895-4653-a40b-a99933f69176_7",
+    "source_id": "node_dipol",
+    "target_id": "node_gidrofilnye_veshchestva",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "Дипольный характер молекулы воды определяет её уникальность как растворителя для гидрофильных веществ",
+    "chunks": [
+      "chunk_0"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_457053a4-3a71-4a14-b331-7873678f9ad9_8",
+    "source_id": "node_neorganicheskie_veshchestva",
+    "target_id": "rp_node_вода_57",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "Вода является неорганическим веществом",
+    "chunks": [
+      "chunk_0"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Химический состав клетки"
+      }
+    ]
+  },
+  {
+    "id": "edge_432e5a50-bcb9-480c-81b0-e6149aa92bc6_9",
+    "source_id": "node_neorganicheskie_veshchestva",
+    "target_id": "node_soli",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "Соли являются неорганическими веществами",
+    "chunks": [
+      "chunk_0"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_e5a3aeff-9b1c-4aaf-8d00-718c42d0041c_10",
+    "source_id": "node_soli",
+    "target_id": "node_gidrofilnye_veshchestva",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "Соли являются гидрофильными соединениями",
+    "chunks": [
+      "chunk_0"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_b888f425-c526-4ceb-b3ae-7d8ebe5db460_0",
+    "source_id": "rp_node_вода_57",
+    "target_id": "node_gidrofilnye_veshchestva",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "растворяет",
+    "chunks": [
+      "chunk_1"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_207fbaa4-2f05-4d25-ae70-8adb71e4e69b_1",
+    "source_id": "rp_node_вода_57",
+    "target_id": "node_gidrofobnye_veschestva",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "не растворяет",
+    "chunks": [
+      "chunk_1"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_f9f57b87-eb98-4b74-a888-0b577f6fd416_2",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_gidrofobnye_veschestva",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "являются",
+    "chunks": [
+      "chunk_1"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_1736f22b-c87a-4c6a-a9a4-d3d2837363f3_3",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_membrany",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "формируют",
+    "chunks": [
+      "chunk_1"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_d9bfea70-f525-4646-8a0b-705a2fa87125_4",
+    "source_id": "rp_node_вода_57",
+    "target_id": "node_dissociaciya_vody",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "подвергается",
+    "chunks": [
+      "chunk_1"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_c3818c43-d300-4db8-85e8-568c5f4be50c_5",
+    "source_id": "node_dissociaciya_vody",
+    "target_id": "rp_node_клеточное_дыхание_169",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "необходима для",
+    "chunks": [
+      "chunk_1"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_253b7d9c-b6cc-4f69-80e8-78f8a32b226b_6",
+    "source_id": "node_dissociaciya_vody",
+    "target_id": "rp_node_фотосинтез_150",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "необходима для",
+    "chunks": [
+      "chunk_1"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_90b436a0-3fad-4648-8f9d-511b0de69447_7",
+    "source_id": "node_soli",
+    "target_id": "node_kationy",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "содержат",
+    "chunks": [
+      "chunk_1"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_e3ecb96f-a599-43b1-9ba7-282202ea04de_8",
+    "source_id": "node_kationy",
+    "target_id": "rp_node_диффузия_100",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "подвергаются",
+    "chunks": [
+      "chunk_1"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_3762e25e-ca51-4ab1-a9f8-f79c71bf72af_9",
+    "source_id": "rp_node_вода_57",
+    "target_id": "rp_node_цитоплазма_107",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является основой",
+    "chunks": [
+      "chunk_1"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_f16e55f4-7326-4bf7-9080-09a98d9c2f44_0",
+    "source_id": "node_kletochnaya_membrana",
+    "target_id": "rp_node_диффузия_100",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "противостоит",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_f43f6a3e-f6e8-4c22-b3bc-58511ee21534_1",
+    "source_id": "node_neorganicheskie_veshchestva",
+    "target_id": "node_fosfat_kalciya",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "включает",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_71114fff-2ad8-401b-8d2d-2ba03c2932c4_2",
+    "source_id": "node_neorganicheskie_veshchestva",
+    "target_id": "node_karbonat_kalciya",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "включает",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_2f50a010-d25e-49d5-aa1e-9b0d701a4085_3",
+    "source_id": "node_iony_natriya",
+    "target_id": "node_iony_kaliya",
+    "relation_type": "logical",
+    "strength": 5,
+    "description": "совместно обеспечивают проведение нервных импульсов",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_78383047-d8c1-4786-b3c1-1323a126dc35_4",
+    "source_id": "node_iony_kalciya",
+    "target_id": "node_plazma_krovi",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "необходимы для свёртывания",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_ba4239d7-3a7e-4e15-97a4-f1c719bc43f3_5",
+    "source_id": "node_aniony_kislot",
+    "target_id": "node_bufernye_soedineniya",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "выполняют роль",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_3693425b-d92e-41a6-85c1-d76d34339467_6",
+    "source_id": "node_soedineniya_azota",
+    "target_id": "rp_node_нуклеиновые_кислоты_77",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "служат источником для синтеза",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_bbb0ea55-082a-4c52-95f2-7d4c0b205101_7",
+    "source_id": "node_fosfor",
+    "target_id": "rp_node_нуклеиновые_кислоты_77",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "входит в состав",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_284d3669-5fda-4037-97e3-885fafd9fcc3_8",
+    "source_id": "node_fosfor",
+    "target_id": "rp_node_фосфолипиды_73",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "входит в состав",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_3bacd3c3-a690-4e2e-ad62-f0a34c685180_9",
+    "source_id": "node_sera",
+    "target_id": "rp_node_органические_вещества_59",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "присутствует во многих белках",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_722eddbe-3724-41e4-b5bc-c3b3285fcea2_10",
+    "source_id": "node_zhelezo",
+    "target_id": "node_gemoglobin",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "является обязательным компонентом активного центра",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_5b9a5626-0dd3-4983-b29d-8f07e3cb465f_11",
+    "source_id": "rp_node_фосфолипиды_73",
+    "target_id": "node_kletochnaya_membrana",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "являются основным компонентом",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_02c520f5-cd67-4a2d-a92b-ea1be7f13a88_12",
+    "source_id": "rp_node_почки_277",
+    "target_id": "node_plazma_krovi",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "определяют ионный состав",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_d14d36a1-a61f-4e73-b74c-d1ea7a741ec4_13",
+    "source_id": "node_iony_natriya",
+    "target_id": "node_osmoticheskoe_davlenie",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "определяет",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_e46dd9b0-a2d4-4561-87c0-83595822a486_14",
+    "source_id": "node_iony_kaliya",
+    "target_id": "node_potencial_pokoya",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "обеспечивает",
+    "chunks": [
+      "chunk_2"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_06a6850f-af33-48cc-a3f8-c9124b75c08f_0",
+    "source_id": "node_iony_kaliya",
+    "target_id": "node_membrannyy_potentsial",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "Концентрация ионов калия в цитоплазме клетки в 30 раз превышает таковую в плазме крови и межклеточной жидкости. На этом основан потенциал покоя нервных и мышечных клеток",
+    "chunks": [
+      "chunk_3"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_ec2cae29-ecb6-4a87-b139-5c0b452f4b59_1",
+    "source_id": "node_giperkalemiya",
+    "target_id": "node_membrannyy_potentsial",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "при избытке калия в крови (гиперкалиемия) клетки становятся более возбудимыми",
+    "chunks": [
+      "chunk_3"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_a4393033-7e2c-441a-8cec-4d56afe83468_2",
+    "source_id": "node_gipokalemiya",
+    "target_id": "node_membrannyy_potentsial",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "При недостатке калия, наоборот, клетки становятся менее возбудимыми",
+    "chunks": [
+      "chunk_3"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_7af0b374-d945-4a2a-864d-6c02858e517a_3",
+    "source_id": "node_iony_kalciya",
+    "target_id": "node_membrannyy_potentsial",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "стабилизируют натриевые каналы",
+    "chunks": [
+      "chunk_3"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_898cf1a7-be64-4810-a292-d8f3660cc32e_4",
+    "source_id": "node_gipokaltsiyemiya",
+    "target_id": "node_membrannyy_potentsial",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "проявляется повышенной возбудимостью нервных и мышечных клеток",
+    "chunks": [
+      "chunk_3"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_e1b38cd2-92b8-4da0-a22f-c0a8eb8e5a4c_5",
+    "source_id": "node_vodorodnaya_svyaz",
+    "target_id": "rp_node_вода_57",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "Уникальные свойства воды определяются в том числе существованием между её молекулами водородных связей",
+    "chunks": [
+      "chunk_3"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_02d9fa99-798e-4efa-a3af-44a5df097cc4_6",
+    "source_id": "rp_node_вода_57",
+    "target_id": "node_gidrofilnye_veshchestva",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "является растворителем для гидрофильных веществ",
+    "chunks": [
+      "chunk_3"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_81df0438-c7fa-459d-8c64-7d0cfbdbb7ad_0",
+    "source_id": "node_strontsiy",
+    "target_id": "node_kostnaya_tkan",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "увеличивает плотность костной ткани и делает её прочнее",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_6b7938cc-2983-4c1f-8627-ab519e0791c0_1",
+    "source_id": "node_strontsiy",
+    "target_id": "node_osteoklasty",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "тормозит деятельность остеокластов",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_e163b10a-70d6-449e-9099-92398de4f270_2",
+    "source_id": "node_strontsiy",
+    "target_id": "node_osteoblasty",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "ускоряет развитие остеобластов",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_503ad693-da18-4ee0-9a09-dc22b4b229fa_3",
+    "source_id": "node_osteoklasty",
+    "target_id": "node_kostnaya_tkan",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "разрушают кость",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_40e5443e-2159-4798-9030-6aea6c6d1a5f_4",
+    "source_id": "node_osteoblasty",
+    "target_id": "node_kostnaya_tkan",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "создают костную ткань",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_f06968c2-ea11-4626-b0d3-49e5c6193c9b_5",
+    "source_id": "node_khrom",
+    "target_id": "node_glyukoza",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "трёхвалентный хром необходим для нормального обмена глюкозы",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Макро-, микро- и ультрамикроэлементы"
+      }
+    ]
+  },
+  {
+    "id": "edge_ef7a26cd-b2a0-43d0-a366-3d5fdf369116_6",
+    "source_id": "node_bufernye_soedineniya",
+    "target_id": "node_ph",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "поддерживают постоянство кислотности среды (pH)",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Минеральные вещества клетки, их биологическая роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_e6066ae3-8f8c-42c1-9ad2-46f31c4bb772_7",
+    "source_id": "node_aniony_fosfornoy_kisloty",
+    "target_id": "rp_node_атф_83",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "необходимы для синтеза АТФ",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Строение молекулы АТФ"
+      }
+    ]
+  },
+  {
+    "id": "edge_4ce5fcdf-8c84-4096-89c2-54676771adee_8",
+    "source_id": "node_tregaloза",
+    "target_id": "rp_node_вода_57",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "предотвращает замерзание клеточной воды",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_90f0928e-d14b-4bc2-991d-798fb82c3d8c_9",
+    "source_id": "node_glyukoza",
+    "target_id": "node_tregaloза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "трегалоза состоит из 2 молекул глюкозы",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_391670b5-c17f-4701-95aa-3d6b4ea05d4f_10",
+    "source_id": "node_tregaloза",
+    "target_id": "node_disaharid",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "трегалоза является дисахаридом",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_e0024d32-4f1e-4e88-acfc-19e2fb3e6986_11",
+    "source_id": "rp_node_вода_57",
+    "target_id": "node_gidratnye_obolochki",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "участвует в образовании гидратных оболочек",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_fd208c2e-93a5-4921-850f-c109ced9607c_12",
+    "source_id": "node_osmos",
+    "target_id": "rp_node_вода_57",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "обеспечивает поступление воды в цитоплазму",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_1f3ef8db-5171-4ea7-906e-0feb4b3e621f_13",
+    "source_id": "node_kletochnaya_membrana",
+    "target_id": "node_osmos",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "обеспечивает осмос, являясь полупроницаемой",
+    "chunks": [
+      "chunk_4"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_738e6b05-8e20-4e8e-9f93-4ca1a6125d58_0",
+    "source_id": "node_osmos",
+    "target_id": "rp_node_вода_57",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "обеспечивает поступление воды в клетку по градиенту концентрации",
+    "chunks": [
+      "chunk_5"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_7086dc8a-e11b-4c2c-b6f4-736d1a24f77e_1",
+    "source_id": "rp_node_плазматическая_мембрана_98",
+    "target_id": "node_osmos",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "являясь полупроницаемой, обеспечивает осмос",
+    "chunks": [
+      "chunk_5"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_166ce697-fee2-428a-9e8c-8cd22eb09068_2",
+    "source_id": "node_osmos",
+    "target_id": "node_turgornoe_davlenie",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "обеспечивает поддержание тургорного давления в клетках растений",
+    "chunks": [
+      "chunk_5"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_34acf853-1d3b-47e6-8643-4d44f4eff6f5_3",
+    "source_id": "node_osmos",
+    "target_id": "rp_node_сократительные_вакуоли_272",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "необходимость выводить поступающую в результате осмоса воду связана с работой сократительных вакуолей",
+    "chunks": [
+      "chunk_5"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_c8d080f9-cad9-444d-a40c-6c9211123235_4",
+    "source_id": "node_osmoticheskaya_sreda",
+    "target_id": "node_eritrocit",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "влияет на форму и целостность эритроцита",
+    "chunks": [
+      "chunk_5"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_67378b8c-c8fb-4551-a451-95a712deef51_5",
+    "source_id": "node_fiziologicheskiy_rastvor",
+    "target_id": "node_osmoticheskaya_sreda",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "является изоосмотической средой",
+    "chunks": [
+      "chunk_5"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_135d238b-9a28-418a-8691-9489dabfaf19_6",
+    "source_id": "node_akvaporiny",
+    "target_id": "rp_node_вода_57",
+    "relation_type": "logical",
+    "strength": 5,
+    "description": "работают как каналы, пропускающие воду через мембрану с высокой скоростью",
+    "chunks": [
+      "chunk_5"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_604ecaac-1d81-4ada-910e-3f1bbafefb0e_7",
+    "source_id": "node_vazopressin",
+    "target_id": "node_akvaporiny",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "регулирует встраивание аквапоринов в плазматическую мембрану",
+    "chunks": [
+      "chunk_5"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_fdfe8dbe-3440-4cc8-aac1-493a4d71f97e_8",
+    "source_id": "node_akvaporiny",
+    "target_id": "node_nesaharnyy_diabet",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "нарушения в работе аквапоринов связаны с несахарным диабетом",
+    "chunks": [
+      "chunk_5"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_cf5b7890-f8d5-4d63-a1d0-b718ff01e64a_9",
+    "source_id": "rp_node_плазматическая_мембрана_98",
+    "target_id": "node_akvaporiny",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "содержит аквапорины, обеспечивающие транспорт воды",
+    "chunks": [
+      "chunk_5"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Вода и её роль"
+      }
+    ]
+  },
+  {
+    "id": "edge_83f38a7b-1ea3-4dc8-b7bb-deef755d4b02_0",
+    "source_id": "node_vazopressin",
+    "target_id": "node_аквапорин",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "регулирует встраивание в плазматическую мембрану",
+    "chunks": [
+      "chunk_6"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_12690485-dfc6-4949-b133-6256cb544762_1",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_гидрофобные_соединения",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "являются",
+    "chunks": [
+      "chunk_6"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_73bb8726-c61a-4ff1-b7d6-d628fe694c5f_2",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_жиры",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включают в себя",
+    "chunks": [
+      "chunk_6"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_1134b153-20f1-47f3-97f3-7aad58b2292c_3",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "rp_node_фосфолипиды_73",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включают в себя",
+    "chunks": [
+      "chunk_6"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_429ceee6-af99-4186-a1c9-1b34cb1f734c_4",
+    "source_id": "node_глицерин",
+    "target_id": "node_жирные_кислоты",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "образуют эфиры",
+    "chunks": [
+      "chunk_6"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_4167d9bd-75a3-4fce-abce-27c025013fa2_5",
+    "source_id": "node_глицерин",
+    "target_id": "rp_node_триглицериды_72",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "при связывании всех гидроксильных групп с жирными кислотами образуются",
+    "chunks": [
+      "chunk_6"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_7b29b65d-6d3c-4b05-a3ba-4f037082392e_6",
+    "source_id": "node_жирные_кислоты",
+    "target_id": "node_ненасыщенные_жирные_кислоты",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "подразделяются на",
+    "chunks": [
+      "chunk_6"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_9d0be573-d964-48bd-acbf-9cb24bb591e3_7",
+    "source_id": "node_жирные_кислоты",
+    "target_id": "node_насыщенные_жирные_кислоты",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "подразделяются на",
+    "chunks": [
+      "chunk_6"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_9e01a1fc-d38b-4462-a3e4-59a8e101f037_8",
+    "source_id": "node_ненасыщенные_жирные_кислоты",
+    "target_id": "node_насыщенные_жирные_кислоты",
+    "relation_type": "comparative",
+    "strength": 4,
+    "description": "имеют более низкую температуру плавления, чем",
+    "chunks": [
+      "chunk_6"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_dcd99948-448c-4ff0-b15d-b67f17752eaf_9",
+    "source_id": "node_глицерин",
+    "target_id": "node_сложноэфирная_связь",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "образует с жирными кислотами",
+    "chunks": [
+      "chunk_6"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_0c14d774-a33f-4734-9629-444b78b14ed4_0",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_жирные_кислоты",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "содержат жирные кислоты в своем составе",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_367b9561-1139-4653-b22c-f47513e44eaf_1",
+    "source_id": "node_neytralnye_zhiry",
+    "target_id": "rp_node_липиды_71",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "являются типом липидов",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_31dccd12-a485-49de-bf93-8a863473f0b7_2",
+    "source_id": "rp_node_фосфолипиды_73",
+    "target_id": "rp_node_липиды_71",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "относятся к сложным липидам",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_3c7351e3-da64-42ec-b127-4e0e07bb8ee1_3",
+    "source_id": "node_voska",
+    "target_id": "node_neytralnye_zhiry",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "относятся к нейтральным жирам",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_2593133f-e437-4b2c-a607-a0066d1a0dc8_4",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_gidroliz",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "подвергаются гидролизу в кишечнике для усвоения",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_6d01e1c5-151c-4d92-a7f4-741d4e92fe19_5",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_energeticheskaya_funktsiya",
+    "relation_type": "logical",
+    "strength": 5,
+    "description": "выполняют энергетическую функцию, давая 38,9 кДж/г энергии при окислении",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_5704bb31-9fd0-446b-841a-129383541cb8_6",
+    "source_id": "node_neytralnye_zhiry",
+    "target_id": "node_teploizolyatsionnaya_funktsiya",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "выполняют теплоизоляционную функцию в организме животных",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_7c436e1f-5b8f-4b83-b2e5-62d6f817c3ac_7",
+    "source_id": "node_neytralnye_zhiry",
+    "target_id": "node_zashchitnaya_funktsiya",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "выполняют защитную функцию для внутренних органов",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_43c3acfa-831c-4814-a7f5-73904e9637ca_8",
+    "source_id": "rp_node_фосфолипиды_73",
+    "target_id": "rp_node_биологические_мембраны_76",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "составляют основу биологических мембран",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_715d9fda-b9cf-4d26-9191-9b0d2f0b3ed2_9",
+    "source_id": "rp_node_фосфолипиды_73",
+    "target_id": "node_fosfornaya_kislota",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "содержат остаток фосфорной кислоты",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_24583a94-07e9-44dc-bbf3-cec2733fd0d5_10",
+    "source_id": "rp_node_фосфолипиды_73",
+    "target_id": "node_amfifilnye_veshchestva",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "являются амфифильными веществами",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_7b6fa288-4f35-4975-8b7f-86b50b6ba5d3_11",
+    "source_id": "node_gidroliz",
+    "target_id": "node_глицерин",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "приводит к образованию глицерина и жирных кислот",
+    "chunks": [
+      "chunk_7"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_a3f50915-165d-4d5d-a137-b7f807e34aab_0",
+    "source_id": "rp_node_фосфолипиды_73",
+    "target_id": "rp_node_биологические_мембраны_76",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "формируют биологические мембраны",
+    "chunks": [
+      "chunk_8"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_cba5bb6c-77c3-4600-a831-0ca6b93f6d18_1",
+    "source_id": "rp_node_биологические_мембраны_76",
+    "target_id": "node_kompartmenty",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "делят клетку на отсеки — компартменты",
+    "chunks": [
+      "chunk_8"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_843e0593-d531-4f2f-b4c6-a0b6393b58b2_2",
+    "source_id": "node_holesterin",
+    "target_id": "rp_node_биологические_мембраны_76",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "входит в состав биологических мембран, придавая им определённую жёсткость",
+    "chunks": [
+      "chunk_8"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_b49ecf47-1477-447e-81ae-1682bd4c7751_3",
+    "source_id": "node_holesterin",
+    "target_id": "node_steroidnye_gormony",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "из холестерина образуются стероидные гормоны",
+    "chunks": [
+      "chunk_8"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_a9775e34-cacc-4921-9d06-de63fb9a26bc_4",
+    "source_id": "node_holesterin",
+    "target_id": "node_zhelchnye_kisloty",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "из холестерина образуются желчные кислоты",
+    "chunks": [
+      "chunk_8"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_2b75f936-66a3-47d9-b73a-4acd8af24ddd_5",
+    "source_id": "node_membrannye_belki",
+    "target_id": "rp_node_биологические_мембраны_76",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "входят в состав биологических мембран",
+    "chunks": [
+      "chunk_8"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_c9771841-5fb2-451b-9074-65891f651c44_6",
+    "source_id": "node_membrannye_belki",
+    "target_id": "rp_node_атф_83",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "используют энергию АТФ для переноса веществ через мембрану",
+    "chunks": [
+      "chunk_8"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_344364a6-b53f-4ae2-aeab-54bc41233990_7",
+    "source_id": "node_жирные_кислоты",
+    "target_id": "rp_node_фосфолипиды_73",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "входят в состав фосфолипидов как гидрофобная часть",
+    "chunks": [
+      "chunk_8"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_7de4aaca-0491-4471-a86d-d3d98b6c1c05_8",
+    "source_id": "rp_node_стероиды_75",
+    "target_id": "node_holesterin",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "холестерин является представителем стероидов",
+    "chunks": [
+      "chunk_8"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_dcd01eda-ca95-44e9-a090-57eaaf3248d4_9",
+    "source_id": "node_zhelchnye_kisloty",
+    "target_id": "node_lipidnyj_obmen",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "необходимы для нормального переваривания жиров",
+    "chunks": [
+      "chunk_8"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_d204ea50-5613-41c8-bce3-e6cc5ec9d083_0",
+    "source_id": "node_obmen_veshchestv",
+    "target_id": "node_sbalansirovannoe_pitanie",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "зависит от",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ассимиляция и диссимиляция – две стороны метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_9deaf9ee-b082-4944-b6cc-32e5e2475fb8_1",
+    "source_id": "node_obmen_veshchestv",
+    "target_id": "node_obmen_zhirov",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "включает в себя",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ассимиляция и диссимиляция – две стороны метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_01da7bb6-87ce-4cc1-9ab8-e15e695694fb_2",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_жирные_кислоты",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "содержат",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ассимиляция и диссимиляция – две стороны метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_6bc72d4b-e158-4723-a372-1827127d4ad9_3",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_emulgirovanie",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "подвергаются процессу",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ассимиляция и диссимиляция – две стороны метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_732d9f00-ac0c-41a9-ab24-f017a29abd9b_4",
+    "source_id": "node_zhelch",
+    "target_id": "node_emulgirovanie",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "обеспечивает",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ассимиляция и диссимиляция – две стороны метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_d538fbe1-c609-4880-be6d-a7ba565f3014_5",
+    "source_id": "node_emulgirovanie",
+    "target_id": "rp_node_ферменты_146",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "позволяет действовать",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ферментативный характер реакций клеточного метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_0bbbc488-c2ac-4029-8493-c1bf4df6b5bb_6",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_lipoproteiny",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "образуют",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ассимиляция и диссимиляция – две стороны метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_6733ff60-8734-4275-b639-795a8080d72e_7",
+    "source_id": "node_lipoproteiny",
+    "target_id": "node_holesterin",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "содержат",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ассимиляция и диссимиляция – две стороны метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_72b85eed-ab4d-4a5f-878b-c2647ab60f14_8",
+    "source_id": "node_obmen_zhirov",
+    "target_id": "node_narushenie_obmena_lipidov",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "при нарушении приводит к",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ассимиляция и диссимиляция – две стороны метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_0fa4d8da-e00e-4a76-966b-a4753804a570_9",
+    "source_id": "node_tonkiy_kishechnik",
+    "target_id": "rp_node_липиды_71",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "переваривает",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ассимиляция и диссимиляция – две стороны метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_6a019657-bc4d-4eff-91a6-f1ab4dbcf57e_10",
+    "source_id": "node_lipoproteiny",
+    "target_id": "node_pechen",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "транспортируют липиды в",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ассимиляция и диссимиляция – две стороны метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_5ce692b1-5007-4093-8b1a-758853886dd5_11",
+    "source_id": "node_holesterin",
+    "target_id": "node_narushenie_obmena_lipidov",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "избыток или недостаток приводит к",
+    "chunks": [
+      "chunk_9"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 6. Обмен веществ и превращение энергии в клетке",
+        "subtopic": "Ассимиляция и диссимиляция – две стороны метаболизма"
+      }
+    ]
+  },
+  {
+    "id": "edge_90064f4d-6f1b-4a8a-bbca-25264e17b203_0",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_neytralnye_zhiry",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является типом",
+    "chunks": [
+      "chunk_10"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_3db00df1-176c-44f7-bf92-055382428164_1",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "rp_node_фосфолипиды_73",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является типом",
+    "chunks": [
+      "chunk_10"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_db4e32d7-645a-4cc3-bb37-243b4cebe7a6_2",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "rp_node_стероиды_75",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является типом",
+    "chunks": [
+      "chunk_10"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_05d1f6a9-40c6-41e3-a581-969f07a15071_3",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_voska",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "является типом",
+    "chunks": [
+      "chunk_10"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_3879a68f-94e4-4872-87f6-81fb8095c117_4",
+    "source_id": "rp_node_стероиды_75",
+    "target_id": "node_holesterin",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включает",
+    "chunks": [
+      "chunk_10"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_be394619-5534-46ae-bc19-6d22534f2062_5",
+    "source_id": "rp_node_стероиды_75",
+    "target_id": "node_anabolicheskie_steroidy",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "включает искусственные аналоги",
+    "chunks": [
+      "chunk_10"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_dd2ab10b-ce7c-46b3-8713-7456b8cb45ad_6",
+    "source_id": "rp_node_фосфолипиды_73",
+    "target_id": "node_kletochnaya_membrana",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "входят в состав",
+    "chunks": [
+      "chunk_10"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_3f46f06f-b6dc-4808-9d82-67ab4696609e_7",
+    "source_id": "node_жирные_кислоты",
+    "target_id": "node_gidrogenizirovanie",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "при гидрогенизации ненасыщенных жирных кислот образуются трансжиры",
+    "chunks": [
+      "chunk_10"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_f19134a0-735e-48d0-921e-8a9fc5606e2a_8",
+    "source_id": "node_gidrogenizirovanie",
+    "target_id": "node_transzhiry",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "приводит к образованию",
+    "chunks": [
+      "chunk_10"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_e6b00b72-acdc-47b9-a530-719aa74f589d_9",
+    "source_id": "node_kletochnaya_membrana",
+    "target_id": "rp_node_липиды_71",
+    "relation_type": "logical",
+    "strength": 5,
+    "description": "состоит из двойного слоя",
+    "chunks": [
+      "chunk_10"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_ff5f279f-063c-4172-9382-66f286585f89_0",
+    "source_id": "node_holesterin",
+    "target_id": "rp_node_липиды_71",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является видом",
+    "chunks": [
+      "chunk_11"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_77161e27-81dd-4f5d-918f-0e43ac6dc314_1",
+    "source_id": "node_holesterin",
+    "target_id": "rp_node_гормоны_302",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "необходим для производства",
+    "chunks": [
+      "chunk_11"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_ea9c89f4-d6c0-4980-8a29-198d447362f8_2",
+    "source_id": "node_holesterin",
+    "target_id": "node_атеросклеротические_бляшки",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "избыток способствует формированию",
+    "chunks": [
+      "chunk_11"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_e34304bf-9207-420d-9e5e-a79e80751fbc_3",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_kletochnaya_membrana",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "являются компонентом",
+    "chunks": [
+      "chunk_11"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_6008ec90-9839-4356-ab96-d4bf117a8a83_4",
+    "source_id": "rp_node_липиды_71",
+    "target_id": "node_жировая_клетчатка",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "избыток откладывается в",
+    "chunks": [
+      "chunk_11"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Липиды"
+      }
+    ]
+  },
+  {
+    "id": "edge_8e357ca7-9fb2-4400-81c9-bdc830f45806_0",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "rp_node_моносахариды_67",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "углеводы встречаются в мономерной форме (моносахариды)",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_045b225d-8eb9-4322-a851-70549e8340f3_1",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "rp_node_дисахариды_68",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "углеводы встречаются в виде полимеров разного размера (ди-, олиго- и полисахариды)",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_91bf14c1-20db-4989-ab24-300a8d68b9d9_2",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "rp_node_олигосахариды_69",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "углеводы встречаются в виде полимеров разного размера (ди-, олиго- и полисахариды)",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_3cf387e7-18ce-4e3b-a6b0-067ead47aba1_3",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "rp_node_полисахариды_70",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "углеводы встречаются в виде полимеров разного размера (ди-, олиго- и полисахариды)",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_07b6f908-8a9b-4f0c-9984-c9abe45ea09b_4",
+    "source_id": "node_карл_шмидт",
+    "target_id": "rp_node_углеводы_66",
+    "relation_type": "causal",
+    "strength": 2,
+    "description": "предложил термин «углеводы» в 1844 г.",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_f82cd46e-4c3f-4f7d-ad39-85fecd817238_5",
+    "source_id": "rp_node_моносахариды_67",
+    "target_id": "node_рибоза",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "среди моносахаридов наибольшее значение для клетки имеют пятиуглеродные рибоза",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_c752c2a8-3528-44a6-80e6-ac85b0ce540a_6",
+    "source_id": "rp_node_моносахариды_67",
+    "target_id": "node_дезоксирибоза",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "среди моносахаридов наибольшее значение для клетки имеют пятиуглеродные дезоксирибоза",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_7cc90fc1-fff9-425a-80fb-8ed0883a5803_7",
+    "source_id": "rp_node_моносахариды_67",
+    "target_id": "node_рибулоза",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "среди моносахаридов наибольшее значение для клетки имеют рибулоза",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_ec738a79-4c4d-4cd7-a98f-da618fad35c3_8",
+    "source_id": "rp_node_моносахариды_67",
+    "target_id": "node_glyukoza",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "для живых организмов весьма важны шестиуглеродные сахара, такие, как глюкоза",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_ebe8f8b5-f257-407c-8b92-fbc50af47218_9",
+    "source_id": "rp_node_моносахариды_67",
+    "target_id": "node_фруктоза",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "для живых организмов весьма важны шестиуглеродные сахара, такие, как фруктоза",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_da3200d7-9def-4947-8251-8cabe2ca5e95_10",
+    "source_id": "rp_node_моносахариды_67",
+    "target_id": "node_галактоза",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "для живых организмов весьма важны шестиуглеродные сахара, такие, как галактоза",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_15e0cb8d-7e31-4528-b5a4-79b15bd5fe14_11",
+    "source_id": "node_рибоза",
+    "target_id": "rp_node_нуклеиновые_кислоты_77",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "входит в состав нуклеотидов и нуклеиновых кислот",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_5f54f2c8-2603-4d6b-982d-77898c0cee17_12",
+    "source_id": "node_дезоксирибоза",
+    "target_id": "rp_node_нуклеиновые_кислоты_77",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "входит в состав нуклеотидов и нуклеиновых кислот",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_d43d13b6-4a6c-41fb-8dce-c20cec9233ad_13",
+    "source_id": "node_рибулоза",
+    "target_id": "rp_node_фотосинтез_150",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "к рибулозе присоединяется углекислый газ в процессе фотосинтеза",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_4951c350-05e7-4d56-9539-b75754909ba7_14",
+    "source_id": "node_glyukoza",
+    "target_id": "node_сахароза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "сахароза состоит из остатков глюкозы и фруктозы",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_d77b7908-0a6c-437b-b3f6-4468197fb8b1_15",
+    "source_id": "node_фруктоза",
+    "target_id": "node_сахароза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "сахароза состоит из остатков глюкозы и фруктозы",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_640d0c35-e123-40b5-9018-a6282fd9fe50_16",
+    "source_id": "node_glyukoza",
+    "target_id": "node_лактоза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "лактоза состоит из остатков глюкозы и галактозы",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_583a024a-0550-46f3-9527-dc62ad703cd6_17",
+    "source_id": "node_галактоза",
+    "target_id": "node_лактоза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "лактоза состоит из остатков глюкозы и галактозы",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_880b6d02-273d-481f-b46f-8c54c1243b36_18",
+    "source_id": "node_glyukoza",
+    "target_id": "node_мальтоза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "мальтоза состоит из двух остатков глюкозы",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_a66564ba-deab-4890-b685-381a510deafa_19",
+    "source_id": "rp_node_полисахариды_70",
+    "target_id": "node_целлюлоза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "целлюлоза является линейным полисахаридом",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_de6b4ea1-2991-4f03-9883-d2e6a27f1c89_20",
+    "source_id": "rp_node_дисахариды_68",
+    "target_id": "node_сахароза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "сахароза является дисахаридом",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_2c71fe8a-5396-416a-93f0-08a641f3c703_21",
+    "source_id": "rp_node_дисахариды_68",
+    "target_id": "node_лактоза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "лактоза является дисахаридом",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_9413222f-5fec-4255-bef7-b614744e27a3_22",
+    "source_id": "rp_node_дисахариды_68",
+    "target_id": "node_мальтоза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "мальтоза является дисахаридом",
+    "chunks": [
+      "chunk_12"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_cd1b68ae-9502-47a6-b417-79f74b966e60_0",
+    "source_id": "node_целлюлоза",
+    "target_id": "node_glyukoza",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "состоит из молекул глюкозы, соединенных бета-1,4-связью",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_7918a824-2550-4cbe-acc3-45e134751cc0_1",
+    "source_id": "node_целлюлоза",
+    "target_id": "node_beta_14_bond",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "молекулы глюкозы соединены между собой прочной бета-1,4-связью",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_48b6be11-947b-48a9-907d-291cbe46da88_2",
+    "source_id": "rp_node_микроорганизмы_448",
+    "target_id": "node_целлюлоза",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "могут расщеплять целлюлозу",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_5ed64f2b-bacf-4497-bad3-2ca3d27085e3_3",
+    "source_id": "node_chitin",
+    "target_id": "node_glyukoza",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "состоит из остатков производного глюкозы N-ацетил-D-глюкозамина",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_edb323c2-3844-47fd-987b-3b4647a66845_4",
+    "source_id": "node_chitin",
+    "target_id": "node_beta_14_bond",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "мономеры соединены между собой бета-1,4-связью",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_ff5690c7-3c2d-42e3-b403-78ddd578aebd_5",
+    "source_id": "node_starch",
+    "target_id": "node_glyukoza",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "состоит из молекул глюкозы",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_817e8aba-b98b-4299-b1e8-d05c28438384_6",
+    "source_id": "node_glycogen",
+    "target_id": "node_glyukoza",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "состоит из молекул глюкозы",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_cb97550d-b475-4ef9-ab48-62c0f7619bd9_7",
+    "source_id": "node_starch",
+    "target_id": "node_alpha_14_bond",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "молекулы глюкозы соединены альфа-1,4-связью",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_de2ff6e1-cc77-4836-bb44-76fc57224697_8",
+    "source_id": "node_glycogen",
+    "target_id": "node_alpha_14_bond",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "молекулы глюкозы соединены альфа-1,4-связью",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_78d9ce65-c63b-4938-9d27-e6f5dcc4afe7_9",
+    "source_id": "node_amylases",
+    "target_id": "node_alpha_14_bond",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "расщепляют альфа-1,4-связь",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_45f02271-10d9-47aa-9070-0d9b135fdd83_10",
+    "source_id": "node_amylases",
+    "target_id": "node_мальтоза",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "расщепляют полисахариды с образованием дисахарида мальтозы",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_0fc655ca-8b61-47f8-93cd-5dd579340ff3_11",
+    "source_id": "node_maltase",
+    "target_id": "node_мальтоза",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "расщепляет мальтозу до глюкозы",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_c5b5cb69-8eb4-44bc-a6cc-67e4f10c6daf_12",
+    "source_id": "node_glyukoza",
+    "target_id": "rp_node_атф_83",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "при расщеплении глюкозы выделяется энергия, которую клетки запасают в виде АТФ",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_33f15d13-c0ee-4bf1-9672-1b6695d2c737_13",
+    "source_id": "rp_node_митохондрии_117",
+    "target_id": "rp_node_атф_83",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "в митохондриях происходит полное аэробное окисление с выделением энергии в виде АТФ",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_bf77f998-67e8-458e-bc0b-8a18173b5db9_14",
+    "source_id": "rp_node_гликолиз_167",
+    "target_id": "rp_node_атф_83",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "в процессе гликолиза выделяется энергия, запасаемая в виде АТФ",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_80dac90a-0809-4213-9234-e7dc212e1e07_15",
+    "source_id": "rp_node_окислительное_фосфорилирование_171",
+    "target_id": "rp_node_атф_83",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "в процессе окислительного фосфорилирования выделяется энергия, запасаемая в виде АТФ",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_29595dfa-16ca-427c-b15f-3fbccae0cae0_16",
+    "source_id": "rp_node_полисахариды_70",
+    "target_id": "rp_node_углеводы_66",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "полисахариды являются типом углеводов",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_d435c12e-dea9-4912-ac62-97be4f691b56_17",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "node_целлюлоза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "целлюлоза является углеводом, выполняющим структурную функцию",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_eb481c16-22db-4a32-b647-dfcbffa86b7f_18",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "node_chitin",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "хитин является углеводом, выполняющим защитную функцию",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_c6eb42be-9586-431e-9dad-a36927ba28df_19",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "node_starch",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "крахмал является углеводом, выполняющим запасную функцию",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_4561e76e-8760-46d3-b366-5e813dd4307d_20",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "node_glycogen",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "гликоген является углеводом, выполняющим запасную функцию",
+    "chunks": [
+      "chunk_13"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_3ea32f45-6f24-4114-bc4c-20746a78312a_0",
+    "source_id": "node_лактоза",
+    "target_id": "node_галактоза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "содержит",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_1fb7932c-4ef4-4c44-8468-947068b9b615_1",
+    "source_id": "node_галактоза",
+    "target_id": "node_glyukoza",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "превращается в",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_39aa2eca-bc4f-4697-ad7c-6f3ee717e0c6_2",
+    "source_id": "node_галактоза",
+    "target_id": "node_glycogen",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "превращается в",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_6d9354a4-2eb4-4355-bce9-5e586c09151e_3",
+    "source_id": "node_галактоза",
+    "target_id": "node_galactose_1_phosphate",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "при нарушении метаболизма накапливается в форме",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_a92ddb29-74a6-4bd1-be7a-3fcec3830522_4",
+    "source_id": "node_фруктоза",
+    "target_id": "node_fructose_1_phosphate",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "при нарушении метаболизма накапливается в форме",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_78c26d49-d2b0-4ad7-a3c1-91ad338f1861_5",
+    "source_id": "node_fructose_1_phosphate_aldolase",
+    "target_id": "node_фруктоза",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "расщепляет",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_1fa0a23c-0e93-4a01-9fde-eb98740a858f_6",
+    "source_id": "node_glycogenosis",
+    "target_id": "node_glycogen",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "характеризуются нарушениями обмена",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_8fbde6b3-ae36-476e-84b7-b358eb8ce0ad_7",
+    "source_id": "node_glucagon",
+    "target_id": "node_glycogen",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "стимулирует расщепление",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_45715eb5-6859-4a8e-9fdc-bf65fba682df_8",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "rp_node_моносахариды_67",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "включают",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_336c0cde-53c4-42e3-9376-20ed54a940d8_9",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "rp_node_дисахариды_68",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "включают",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_38579174-30dc-4c78-ba87-32c36c490973_10",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "rp_node_олигосахариды_69",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "включают",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_499d7527-6887-4ce9-83e1-94cfbfa43b75_11",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "rp_node_полисахариды_70",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "включают",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_87d4db55-d026-494c-8ee9-cc8e0d5ca9ee_12",
+    "source_id": "node_hereditary_disorders",
+    "target_id": "node_glycogenosis",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включают",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_82aa331b-95d9-41e6-a3ca-04c2fa1b07a6_13",
+    "source_id": "node_glyukoza",
+    "target_id": "node_glycogen",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "используется для синтеза",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_1bc12cff-6cf9-421e-b97c-d9e3bc1853b8_14",
+    "source_id": "rp_node_моносахариды_67",
+    "target_id": "node_glyukoza",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включают",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_9c5c56d0-6807-4aef-b07a-d235890539cc_15",
+    "source_id": "rp_node_моносахариды_67",
+    "target_id": "node_галактоза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включают",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_99b8eca7-a26a-4755-8f6f-c9f0905493f0_16",
+    "source_id": "rp_node_моносахариды_67",
+    "target_id": "node_фруктоза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включают",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_d91f7a3f-3b83-4945-8a2e-c0234b8509ac_17",
+    "source_id": "rp_node_дисахариды_68",
+    "target_id": "node_лактоза",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включают",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_47a78606-f821-4c91-ab30-675c31c05b5e_18",
+    "source_id": "rp_node_полисахариды_70",
+    "target_id": "node_glycogen",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включают",
+    "chunks": [
+      "chunk_14"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 13. Закономерности изменчивости",
+        "subtopic": "Мутационная изменчивость"
+      }
+    ]
+  },
+  {
+    "id": "edge_cdc797f9-5bd5-4373-8aab-c0fc8bdae7f7_0",
+    "source_id": "rp_node_углеводы_66",
+    "target_id": "node_окисление",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "подвергаются окислению с выделением энергии",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_1bbed9c9-b795-472a-9b7f-0473a888f681_1",
+    "source_id": "node_окисление",
+    "target_id": "rp_node_атф_83",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "при биологическом окислении энергия запасается в виде макроэргических химических связей АТФ",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Строение молекулы АТФ"
+      }
+    ]
+  },
+  {
+    "id": "edge_d696663e-36c5-4a94-a7b5-f8b11f84c762_2",
+    "source_id": "node_инсулин",
+    "target_id": "node_glyukoza",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "усиливает поступление глюкозы в клетки и снижает её уровень в крови",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_3ff3bdd3-9559-43ae-bcdc-d06fa231fcd0_3",
+    "source_id": "node_инсулин",
+    "target_id": "node_glycogen",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "стимулирует образование гликогена в мышцах и печени",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_b2b79615-feb8-4c01-b5a7-e48382d9f7e1_4",
+    "source_id": "node_glucagon",
+    "target_id": "node_glycogen",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "стимулирует расщепление гликогена",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_b5159e48-3678-4e82-94cd-a501a79fe075_5",
+    "source_id": "node_glucagon",
+    "target_id": "node_glyukoza",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "вызывает повышение уровня глюкозы в крови",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_1142f075-9d16-4906-83bc-65afee22cfdc_6",
+    "source_id": "node_поджелудочная_железа",
+    "target_id": "node_инсулин",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "β-клетки островков Лангерганса поджелудочной железы выделяют инсулин",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_b6f57bc3-8c45-4e0e-a671-9be854e8b2b4_7",
+    "source_id": "node_поджелудочная_железа",
+    "target_id": "node_glucagon",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "α-клетки островков Лангерганса в поджелудочной железе выделяют глюкагон",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_1badbe8e-cada-4ca6-b109-6e04f11cf643_8",
+    "source_id": "node_адреналин",
+    "target_id": "node_glyukoza",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "вызывает рост уровня глюкозы в крови",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_64ffde36-2635-4cb5-bdef-32fc05ee10cb_9",
+    "source_id": "node_кортизол",
+    "target_id": "node_glyukoza",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "вызывает рост уровня глюкозы в крови",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_06290177-11dc-4890-84c6-8cc0c2ad160c_10",
+    "source_id": "rp_node_полисахариды_70",
+    "target_id": "node_starch",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "крахмал является видом полисахаридов",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_db0c583d-8e56-4132-b433-471eb3a64981_11",
+    "source_id": "rp_node_полисахариды_70",
+    "target_id": "node_glycogen",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "гликоген является видом полисахаридов",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_8fcbdf24-596f-427b-bc64-bd806d2a4afc_12",
+    "source_id": "node_инсулин",
+    "target_id": "node_гипогликемия",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "передозировка инсулина может вызвать гипогликемию",
+    "chunks": [
+      "chunk_15"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Углеводы"
+      }
+    ]
+  },
+  {
+    "id": "edge_d7a751d8-8743-4742-a388-cb5d588ab8d0_0",
+    "source_id": "node_гипогликемия",
+    "target_id": "node_glyukoza",
+    "relation_type": "logical",
+    "strength": 5,
+    "description": "является снижением уровня ниже 3,0—3,3 ммоль/л",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_2cee41e7-baeb-48ba-8796-8d6b5b93d843_1",
+    "source_id": "node_инсулин",
+    "target_id": "node_гипогликемия",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "передозировка вызывает",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_0fccd27c-fbf7-4465-8b18-47991a32e929_2",
+    "source_id": "node_giperglikemiya",
+    "target_id": "node_glyukoza",
+    "relation_type": "logical",
+    "strength": 5,
+    "description": "является повышением уровня выше 5,5 ммоль/л натощак",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_ca1e8265-f124-4e4e-aa70-f65e88ad3f24_3",
+    "source_id": "node_giperglikemiya",
+    "target_id": "node_saharnyy_diabet",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "является основным признаком",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_fcf3a0ff-11b7-4b2e-8fd4-50811d364ae1_4",
+    "source_id": "node_saharnyy_diabet",
+    "target_id": "node_saharnyy_diabet_pervogo_tipa",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "подразделяется на",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_09942801-33c8-4008-bca3-d254858f430e_5",
+    "source_id": "node_saharnyy_diabet",
+    "target_id": "node_saharnyy_diabet_vtorogo_tipa",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "подразделяется на",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_1da42c2b-32f8-4716-abb1-63150051f0bd_6",
+    "source_id": "node_saharnyy_diabet_pervogo_tipa",
+    "target_id": "node_инсулин",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "характеризуется абсолютным дефицитом",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_03f78c9b-33d2-4a16-8885-cef7a7bbb6e0_7",
+    "source_id": "node_saharnyy_diabet_vtorogo_tipa",
+    "target_id": "node_insulin_rezistentnost",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "характеризуется снижением чувствительности органов-мишеней к инсулину",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_9852cb07-9e80-487d-9d67-73e4865bf8d9_8",
+    "source_id": "node_glyukozo_tolerantnyy_test",
+    "target_id": "node_saharnyy_diabet",
+    "relation_type": "referential",
+    "strength": 4,
+    "description": "используется для диагностики",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_18035a23-5c22-458b-92aa-39076fc0def8_9",
+    "source_id": "node_giperglikemiya",
+    "target_id": "node_glikozilirovannyy_gemoglobin",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "приводит к образованию повышенного количества",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_e1270ae1-f2dd-4d07-b80d-2d5a94247107_10",
+    "source_id": "node_giperglikemiya",
+    "target_id": "node_poliuriya",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "вызывает выделение глюкозы с мочой, что приводит к",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_c5800fb0-9d4c-4679-a576-1a9429e18233_11",
+    "source_id": "node_saharnyy_diabet_pervogo_tipa",
+    "target_id": "node_giperlipidemia",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "приводит к выбросу жирных кислот из жировой ткани в кровь",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_4c167912-44e2-486c-953d-8bc6702bc8a7_12",
+    "source_id": "node_giperlipidemia",
+    "target_id": "node_ketonovye_tela",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "избыток жирных кислот расщепляется с образованием",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_a31f4875-a1d9-4309-95a6-dd5e9edadec3_13",
+    "source_id": "node_poliuriya",
+    "target_id": "node_giperosmolarnaya_koma",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "приводит к обезвоживанию и нарушению электролитного баланса, что может вызвать",
+    "chunks": [
+      "chunk_16"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Экология видов и популяций",
+        "subtopic": "Экологические характеристики популяции"
+      }
+    ]
+  },
+  {
+    "id": "edge_b4b18f32-f394-4aea-978d-8531e382b0f0_0",
+    "source_id": "node_giperglikemiya",
+    "target_id": "node_saharnyy_diabet",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "является основным проявлением",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_db7fcb18-bebd-446b-a132-a5199f8b7c0d_1",
+    "source_id": "node_инсулин",
+    "target_id": "node_glyukoza",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "регулирует обмен",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_725386cd-9257-47c4-bbe3-1ba5256647fa_2",
+    "source_id": "node_glyukoza",
+    "target_id": "node_sorbit",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "восстанавливается ферментом альдоредуктазой с образованием",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_7c0755b5-9b89-462e-ab83-bda23a797ae4_3",
+    "source_id": "node_aldoreduktaza",
+    "target_id": "node_sorbit",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "превращает глюкозу в",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_e84e1c76-6885-475b-b056-0f309f9c554c_4",
+    "source_id": "node_sorbit",
+    "target_id": "node_katarakta",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "вызывает набухание клеток, что приводит к",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_2c957614-cf28-49e9-a710-33b328a96adf_5",
+    "source_id": "node_giperglikemiya",
+    "target_id": "node_limfotsity",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "вызывает потерю внутриклеточной жидкости",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_98ae0f7e-3b35-423d-b177-67a8eb160d05_6",
+    "source_id": "node_limfotsity",
+    "target_id": "node_immunitet",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "при сморщивании нарушается их функция, что приводит к снижению",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Защита у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_98e2ea9b-0c26-4d93-9098-6f567eb19280_7",
+    "source_id": "node_giperglikemiya",
+    "target_id": "node_fibrinogen",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "стимулирует образование",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_9b43483c-3518-45eb-bc88-3f3b3b91fbfe_8",
+    "source_id": "node_fibrinogen",
+    "target_id": "node_trombozy",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "увеличивает вязкость и свёртываемость крови, что повышает риск",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_7699e077-568e-4806-a0ed-3c5eab9cad5d_9",
+    "source_id": "node_glyukoza",
+    "target_id": "node_kollagen",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "связывается с",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_485e1aa6-a1e6-4b91-b4a1-115533479c17_10",
+    "source_id": "node_kollagen",
+    "target_id": "node_mikroangiopatiya",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "при связывании с глюкозой утолщается, что приводит к",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_64495b54-8c05-48da-828b-25c1d7fa5c18_11",
+    "source_id": "node_mikroangiopatiya",
+    "target_id": "node_retinopatiya",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "проявляется как",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_45e71ee6-7459-45c9-95de-a50b51a5c860_12",
+    "source_id": "node_mikroangiopatiya",
+    "target_id": "node_glomeruloskleroz",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "проявляется как",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_361bdd12-793c-4700-89b4-0ca780824fbd_13",
+    "source_id": "node_glomeruloskleroz",
+    "target_id": "node_gipertoniya",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "приводит к развитию",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_06248caa-956f-4679-a10e-9d5565800f6f_14",
+    "source_id": "node_gipertoniya",
+    "target_id": "node_infarkt_miokarda",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "приводит к повреждению крупных сосудов с развитием",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_1d962eaa-4bbc-407a-bf19-2a063656ff48_15",
+    "source_id": "node_gipertoniya",
+    "target_id": "node_insult",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "приводит к повреждению крупных сосудов с развитием",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_af4a843a-6104-41d7-afca-79f885adff6a_16",
+    "source_id": "node_gipertoniya",
+    "target_id": "node_diabeticheskaya_stopa",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "приводит к закупорке периферических сосудов с развитием",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_9dd13a70-8fe4-43bb-a44b-0f499d0a807c_17",
+    "source_id": "node_starch",
+    "target_id": "rp_node_углеводы_66",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "является представителем",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Питание организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_1604690c-2de1-4eb8-8396-528e2afb0910_18",
+    "source_id": "rp_node_белки_61",
+    "target_id": "rp_node_аминокислоты_62",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "состоят из мономеров",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Питание организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_cf504ee7-975a-4d23-912a-a0c04ce74ea2_19",
+    "source_id": "rp_node_аминокислоты_62",
+    "target_id": "node_aminogruppa",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "содержат",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Питание организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_7ddecee7-ec4e-47ee-9d6d-28330e5b1453_20",
+    "source_id": "rp_node_аминокислоты_62",
+    "target_id": "node_karboksilnaya_gruppa",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "содержат",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Питание организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_dbe14f4f-0391-4b66-8936-167c35ddcaaa_21",
+    "source_id": "rp_node_аминокислоты_62",
+    "target_id": "node_bokovoy_radikal",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "содержат",
+    "chunks": [
+      "chunk_17"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Питание организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_5ffd8a27-a230-4fdd-8178-65f7b9eae966_0",
+    "source_id": "node_belok",
+    "target_id": "node_aminokislota",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "В состав белков в качестве мономеров входит 20 разных аминокислот",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_8d1e5c68-1a37-491b-8a34-89df400dca53_1",
+    "source_id": "node_aminokislota",
+    "target_id": "node_bokovoy_radikal",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "У разных аминокислот он имеет разную структуру",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_01f12877-c200-42c9-bb05-430d4283110d_2",
+    "source_id": "node_bokovoy_radikal",
+    "target_id": "node_belok",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "Особенности боковых радикалов аминокислот, входящих в состав данного белка, определяют его свойства",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_53488aba-c824-4278-8983-12a9572b28db_3",
+    "source_id": "node_nezamenimye_aminokisloty",
+    "target_id": "node_belok",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "Они входят в состав растительных и животных белков",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_585f707e-fbf9-4daf-b0da-632625e57bbb_4",
+    "source_id": "node_aminokislota",
+    "target_id": "rp_node_пептидная_связь_63",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "аминогруппа одной аминокислоты взаимодействует с карбоксильной группой другой",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_0295eb6e-b662-4e93-af89-0da3bc33c7f8_5",
+    "source_id": "rp_node_пептидная_связь_63",
+    "target_id": "node_peptid",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "При подобном взаимодействии происходит образование пептидной связи с выделением молекулы воды, поэтому образовавшееся соединение называют пептидом",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_76976bd1-fd57-4492-a438-bdad70e54bf3_6",
+    "source_id": "node_belok",
+    "target_id": "node_polipeptid",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "Как правило, молекулы белков представляют собой полипептиды",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_52483daf-3ce5-4063-a63d-fb283acd1617_7",
+    "source_id": "node_aminokislota",
+    "target_id": "node_pervichnaya_struktura_belka",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "порядок расположения аминокислотных остатков в молекуле белка определяет только его первичную структуру",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_23897761-5229-490d-b214-261e8b1cf21c_8",
+    "source_id": "node_gen",
+    "target_id": "node_pervichnaya_struktura_belka",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "последовательность аминокислот определяется структурой гена, кодирующего данный белок",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_177c6ee1-e956-4147-9e02-a98ae23f08c8_9",
+    "source_id": "node_polipeptid",
+    "target_id": "node_konformatsiya",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "Полипептидная цепь является достаточно гибкой молекулой, поскольку в ней возможно свободное вращение атомов вокруг многих связей",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_440b4c42-1443-434c-b285-52ae998adde4_10",
+    "source_id": "node_belok",
+    "target_id": "node_nativnoe_sostoyanie",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "большинство клеточных белков в неповреждённом (нативном) состоянии могут существовать только лишь в одной, характерной для данного полипептида, конформации",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_e6e9f374-9b00-4ea4-81e7-0b95928adb9e_11",
+    "source_id": "node_aminokislota",
+    "target_id": "node_konformatsiya",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "конформация определяется тем, как сворачивается полипептидная цепь в растворе, а это, в свою очередь, зависит от последовательности в ней аминокислот",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_583bcda1-5b33-4887-b7ae-2ce700a4be88_12",
+    "source_id": "node_ribosoma",
+    "target_id": "node_belok",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "синтез белковой молекулы на рибосоме начинается именно с N-концевой аминокислоты",
+    "chunks": [
+      "chunk_18"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_46836ed9-d007-4199-a4d1-7f78b6429f1f_0",
+    "source_id": "node_polipeptidnaya_tsep",
+    "target_id": "node_konformatsiya",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "сворачивание полипептидной цепи определяет конформацию",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_6be3859a-b716-467d-a7b1-511548a83fd2_1",
+    "source_id": "rp_node_аминокислоты_62",
+    "target_id": "node_konformatsiya",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "последовательность аминокислот влияет на конформацию",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_0a6bf4c4-7336-428c-9390-399663b5d2b8_2",
+    "source_id": "node_vodorodnye_svyazi",
+    "target_id": "node_alfa_spiral",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "стабилизируют альфа-спираль",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_f4d8b80d-6da5-4572-8697-ed533d1d3db2_3",
+    "source_id": "node_vodorodnye_svyazi",
+    "target_id": "node_beta_struktura",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "стабилизируют бета-структуру",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_0832fc9e-faf0-4f94-b60e-3d4ed837353a_4",
+    "source_id": "node_alfa_spiral",
+    "target_id": "node_vtorichnaya_struktura",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "альфа-спирали формируют вторичную структуру белка",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_ed039e4d-2bdf-44a1-8fe2-717811f7465b_5",
+    "source_id": "node_beta_struktura",
+    "target_id": "node_vtorichnaya_struktura",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "бета-структуры формируют вторичную структуру белка",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_4197b449-dd11-4520-8f52-2e0ce3e92a03_6",
+    "source_id": "node_vtorichnaya_struktura",
+    "target_id": "node_tretichnaya_struktura",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "дальнейшая укладка вторичной структуры приводит к формированию третичной структуры",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_c765a91a-d9c6-434d-b24f-e4e3f86d6c31_7",
+    "source_id": "node_globulyarnaya_struktura",
+    "target_id": "node_tretichnaya_struktura",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "глобулярная структура является формой третичной структуры белка",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_e9890121-b2ee-4881-be12-6ed1a62b21a9_8",
+    "source_id": "node_disulfidnye_mostiki",
+    "target_id": "node_tretichnaya_struktura",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "поддерживают третичную структуру",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_e4fe7c39-7eff-44df-9067-9818d4d55484_9",
+    "source_id": "node_tsistein",
+    "target_id": "node_disulfidnye_mostiki",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "образует дисульфидные мостики через боковые радикалы",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_17c133de-35ab-4efb-b49b-6f6d8f15a722_10",
+    "source_id": "node_polipeptidnaya_tsep",
+    "target_id": "node_chetvertichnaya_struktura",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "несколько полипептидных цепей формируют четвертичную структуру",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_889ac008-d864-44dd-941c-1ce49c050c1e_11",
+    "source_id": "node_gemoglobin",
+    "target_id": "node_chetvertichnaya_struktura",
+    "relation_type": "referential",
+    "strength": 3,
+    "description": "является примером белка с четвертичной структурой",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_9ef57032-be74-42d5-a9a9-5ec6bbb079cc_12",
+    "source_id": "node_belok",
+    "target_id": "rp_node_денатурация_64",
+    "relation_type": "causal",
+    "strength": 3,
+    "description": "при экстремальных условиях происходит денатурация белка",
+    "chunks": [
+      "chunk_19"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_7e5f4392-e5d9-4339-b66f-ad11d40bc973_0",
+    "source_id": "rp_node_аминокислоты_62",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "являются мономерами",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_278fbb3f-1d2c-4170-acd6-d5aa22f68e44_1",
+    "source_id": "rp_node_пептидная_связь_63",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "соединяет аминокислоты в белке",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_6df6052e-f61c-4ede-95f9-a7c7e06f35ae_2",
+    "source_id": "node_pervichnaya_struktura_belka",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "является уровнем организации",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_a74c538a-d7f6-4141-ac97-ab598c5f3363_3",
+    "source_id": "node_vtorichnaya_struktura",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "является уровнем организации",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_70f73d4e-753a-4865-affe-d6f8df4a4b67_4",
+    "source_id": "node_tretichnaya_struktura",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "является уровнем организации",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_68c5f6e8-6413-425d-adfe-841c2a0c5bc5_5",
+    "source_id": "node_chetvertichnaya_struktura",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "является уровнем организации",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_c8f9bc5d-3e19-4269-a1b2-d0b0f3c63326_6",
+    "source_id": "rp_node_денатурация_64",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "вызывает необратимые нарушения структуры",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_764c8247-0257-46ad-a510-92b554669f1e_7",
+    "source_id": "node_alfa_spiral",
+    "target_id": "node_vtorichnaya_struktura",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является способом укладки",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_e0e2c972-03e8-417d-9707-35301dd82309_8",
+    "source_id": "node_beta_skladchatyi_sloy",
+    "target_id": "node_vtorichnaya_struktura",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является способом укладки",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_55561d4d-7e7a-4762-a1ca-e2f14c61c053_9",
+    "source_id": "node_vodorodnaya_svyaz",
+    "target_id": "node_vtorichnaya_struktura",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "стабилизирует структуру",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_a28e4180-1277-46b8-9977-f04dd69b3a60_10",
+    "source_id": "node_gemoglobin",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "является примером белка с третичной и четвертичной структурой",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_280c1acd-d7c7-4e69-9608-8b901491dd47_11",
+    "source_id": "node_shaperony",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "восстанавливают структуру денатурированных белков",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_97383ee4-ddac-4744-93a2-044ab0d31933_12",
+    "source_id": "rp_node_денатурация_64",
+    "target_id": "node_vtorichnaya_struktura",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "разрушает структуру",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_518f75d5-2f43-469a-a036-f5fce8c94ecf_13",
+    "source_id": "rp_node_денатурация_64",
+    "target_id": "node_tretichnaya_struktura",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "разрушает структуру",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_a257c027-20ea-4f20-b8bd-a69b02ae1983_14",
+    "source_id": "rp_node_денатурация_64",
+    "target_id": "node_chetvertichnaya_struktura",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "разрушает структуру",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_1c283fc9-1bb4-4108-b896-86f0abd405b9_15",
+    "source_id": "node_shaperony",
+    "target_id": "node_tretichnaya_struktura",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "помогают восстановить утраченную структуру",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_b80b1ef5-4bf5-4a68-a147-f4659e63b490_16",
+    "source_id": "node_spidroiny",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 2,
+    "description": "являются особым типом белков в паутине",
+    "chunks": [
+      "chunk_20"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_b4d053fc-96dc-4919-a9fa-ffe97790bc9e_0",
+    "source_id": "node_obshchiy_analiz_krovi",
+    "target_id": "node_gemoglobin",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "определяет концентрацию",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_fc205edc-95d0-43b0-aeaf-ea413c7267ff_1",
+    "source_id": "node_obshchiy_analiz_krovi",
+    "target_id": "node_eritrotsity",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "определяет количество",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_84e92ecc-62f6-4264-9869-f6dd00b09b38_2",
+    "source_id": "node_obshchiy_analiz_krovi",
+    "target_id": "node_leykotsity",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "определяет количество",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_9c8a3ec4-c560-4cf7-a49c-45e2c30d9fcd_3",
+    "source_id": "node_obshchiy_analiz_krovi",
+    "target_id": "node_trombotsity",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "определяет количество",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_202194a4-7586-4eaf-b9e2-af32d74a048a_4",
+    "source_id": "node_gemoglobin",
+    "target_id": "node_eritrotsity",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "содержится в",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_ff5cce6b-41c6-4c5e-9b3b-01d35fd7054e_5",
+    "source_id": "node_serpovidno_kletochnaya_anemiya",
+    "target_id": "node_gemoglobin_s",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "вызывается наличием",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_5204f221-f7a9-44f5-a5d1-8249091ac2e1_6",
+    "source_id": "node_gemoglobin_s",
+    "target_id": "node_eritrotsity",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "изменяет форму на серповидную",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_b2b1edfe-829b-4b39-8893-f494ff5008a2_7",
+    "source_id": "rp_node_белки_61",
+    "target_id": "rp_node_ферменты_146",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включают",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_c000e24e-c9e1-4eda-bbc9-a07e8743ac96_8",
+    "source_id": "rp_node_белки_61",
+    "target_id": "node_strukturnye_belki",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включают",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_0b52941f-26a1-47cb-8846-cf5ef5382ebd_9",
+    "source_id": "rp_node_белки_61",
+    "target_id": "node_transportnye_belki",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "включают",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_e7569746-3211-4b5b-b236-83272d10f77d_10",
+    "source_id": "rp_node_белки_61",
+    "target_id": "node_signalnye_belki",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "включают",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_ac72fad7-669e-49b1-871d-3447330df3d5_11",
+    "source_id": "rp_node_белки_61",
+    "target_id": "node_belki_dvizheniya",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "включают",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_00f45ef1-33fa-4dd5-8d1c-be9b38f07703_12",
+    "source_id": "node_strukturnye_belki",
+    "target_id": "rp_node_цитоскелет_109",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "формируют",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_8c14ced7-52c1-4911-9682-f66c0f399b67_13",
+    "source_id": "node_gemoglobin",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является",
+    "chunks": [
+      "chunk_22"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 9. Строение и функции организмов",
+        "subtopic": "Транспорт веществ у организмов"
+      }
+    ]
+  },
+  {
+    "id": "edge_c6a0fbb0-f9ee-44ee-8a49-467718dd1b47_0",
+    "source_id": "node_strukturnye_belki",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "является типом",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_c81062e2-f924-4ad0-a6d9-5409259844ae_1",
+    "source_id": "node_strukturnye_belki",
+    "target_id": "rp_node_цитоскелет_109",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "формируют",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_576270d7-edbe-4067-b1d0-5ebc5c755aa2_2",
+    "source_id": "node_kollagen",
+    "target_id": "node_strukturnye_belki",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является примером",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_c26236d0-865a-4a3a-bfdc-830430c334ef_3",
+    "source_id": "rp_node_ферменты_146",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "является типом",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_b8c3e6d6-3552-440b-9734-a29254a58ca2_4",
+    "source_id": "node_katalaza",
+    "target_id": "rp_node_ферменты_146",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является примером",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_d51f753d-aaba-40fe-98f3-7a7a9e5381bd_5",
+    "source_id": "node_pepsin",
+    "target_id": "rp_node_ферменты_146",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "является примером",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_4d58dd11-a745-4461-9d38-0b01d97d4616_6",
+    "source_id": "node_transportnye_belki",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "является типом",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_763fe503-1bc7-49ed-9241-c5a5f37c85d9_7",
+    "source_id": "node_gemoglobin",
+    "target_id": "node_transportnye_belki",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является примером",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_289eea6d-4bcc-4828-9782-1ca43ec40f9d_8",
+    "source_id": "node_lipoproteidy",
+    "target_id": "node_transportnye_belki",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "является примером",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_449b5f65-611c-4d71-8a83-f2e92f578023_9",
+    "source_id": "node_syvorotochnyj_albumin",
+    "target_id": "node_transportnye_belki",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "является примером",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_02dda9d5-71db-404a-82c7-75f01eeeb974_10",
+    "source_id": "node_belki_zashchity",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "является типом",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_1f719c38-f689-49c7-acaf-34e8d0532b19_11",
+    "source_id": "node_antitela",
+    "target_id": "node_belki_zashchity",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "является примером",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_5d12e693-c493-4b54-89da-6a817ea6b610_12",
+    "source_id": "node_antitela",
+    "target_id": "rp_node_гуморальный_иммунитет_286",
+    "relation_type": "causal",
+    "strength": 4,
+    "description": "обеспечивают",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_278741b8-4add-4764-a77e-aee2a313c1b3_13",
+    "source_id": "node_interferony",
+    "target_id": "node_belki_zashchity",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является примером",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_482dd0cb-89d3-4ae0-a869-5d02ea935c73_14",
+    "source_id": "node_toksiny",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "могут быть",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_0af44646-da37-49a4-b7b5-26b4aaeeea66_15",
+    "source_id": "node_signalnye_belki",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 5,
+    "description": "является типом",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_1065dc18-5516-4851-9e21-8c5d11121260_16",
+    "source_id": "rp_node_гормоны_302",
+    "target_id": "node_signalnye_belki",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "могут быть",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_7881c3c4-3253-4b30-b617-9e0bba8eff70_17",
+    "source_id": "node_инсулин",
+    "target_id": "rp_node_гормоны_302",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является примером",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_fdf2d1e4-69ee-446d-9982-4f6cb2b0eaf2_18",
+    "source_id": "node_faktory_rosta",
+    "target_id": "node_signalnye_belki",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является примером",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_c90556b1-4cbd-4497-9173-9b160114648b_19",
+    "source_id": "node_gemoglobin",
+    "target_id": "rp_node_цитоскелет_109",
+    "relation_type": "comparative",
+    "strength": 3,
+    "description": "выполняет другую функцию (транспортную, а не структурную)",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_5d1855fb-cb0d-482c-b007-e811ff31ca9a_20",
+    "source_id": "rp_node_ферменты_146",
+    "target_id": "node_katalaza",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "включают",
+    "chunks": [
+      "chunk_23"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_cb15d377-626e-4673-95d4-d529eee44fe5_0",
+    "source_id": "rp_node_белки_61",
+    "target_id": "node_strukturnye_belki",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является типом",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_332c9b66-1192-4293-bc06-b3d1fc7bce6a_1",
+    "source_id": "rp_node_белки_61",
+    "target_id": "rp_node_ферменты_146",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является типом",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_bb1354c9-f25d-4762-969a-a640c6f1fa13_2",
+    "source_id": "rp_node_белки_61",
+    "target_id": "node_transportnye_belki",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является типом",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_735b9600-3f2c-4d93-b946-1bab6e510691_3",
+    "source_id": "rp_node_белки_61",
+    "target_id": "node_signalnye_belki",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является типом",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_3bb17139-45d4-4ffe-b2bd-0971abbc0485_4",
+    "source_id": "rp_node_белки_61",
+    "target_id": "node_защитные_белки",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является типом",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_e952a547-b3c1-4656-a106-d649eab020e6_5",
+    "source_id": "rp_node_белки_61",
+    "target_id": "node_белки_рецепторы",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является типом",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_717443c6-80ce-4964-9140-2dd360957e0e_6",
+    "source_id": "rp_node_белки_61",
+    "target_id": "node_двигательные_белки",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является типом",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_0c35913b-537f-43ad-98dc-6bb048fef36b_7",
+    "source_id": "rp_node_белки_61",
+    "target_id": "node_запасные_белки",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "является типом",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_b029f0cd-647c-4e25-9765-74510c204e6f_8",
+    "source_id": "node_пептиды",
+    "target_id": "rp_node_гормоны_302",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "Пептидами являются и гормоны гипофиза",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_50f49fc5-c370-497b-b2ac-fa9420788928_9",
+    "source_id": "node_faktory_rosta",
+    "target_id": "node_signalnye_belki",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "являются типом",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_63d5cfa3-bf3a-466e-a9fd-c8c5e355faa8_10",
+    "source_id": "node_faktory_rosta",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "регулируют рост, деление и дифференцировку клеток определённых тканей",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_648c4945-4c0b-4b7a-82ad-1c51a9149f57_11",
+    "source_id": "node_белки_рецепторы",
+    "target_id": "node_сигнальные_молекулы",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "распознают и связываются с",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_caabad39-2429-4521-826d-916a2560647e_12",
+    "source_id": "node_белки_рецепторы",
+    "target_id": "rp_node_плазматическая_мембрана_98",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "Рецепторы расположены в плазматической мембране клеток",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_acd26476-5654-45c7-a077-55f55827443e_13",
+    "source_id": "node_белки_рецепторы",
+    "target_id": "node_ионные_каналы",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "связаны с ионными каналами, которые открываются при контакте сигнальной молекулы с рецептором",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_45a1ee42-a154-4b6c-92c8-825135a51ecc_14",
+    "source_id": "node_актин",
+    "target_id": "node_миозин",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "взаимодействуют и перемещаются друг относительно друга, обеспечивая сокращение мышц",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_fc0800f4-3a8d-4407-b1fc-a497fd834e98_15",
+    "source_id": "node_тубулин",
+    "target_id": "rp_node_микротрубочки_129",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "формирует микротрубочки",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_694ec744-0d83-4738-8a8d-8c18e853304c_16",
+    "source_id": "node_динеин",
+    "target_id": "rp_node_микротрубочки_129",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "обеспечивает перемещение по микротрубочкам",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_fdfc55ab-7308-4b6a-ad66-041636b3b9ff_17",
+    "source_id": "node_кинезин",
+    "target_id": "rp_node_микротрубочки_129",
+    "relation_type": "logical",
+    "strength": 3,
+    "description": "обеспечивает перемещение по микротрубочкам",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_022cf05a-ec6f-4d8d-847f-0be9860c685f_18",
+    "source_id": "node_запасные_белки",
+    "target_id": "node_яичный_альбумин",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "включают яичный альбумин",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_adb59a87-8dba-4236-9977-c83e2a0ab723_19",
+    "source_id": "node_запасные_белки",
+    "target_id": "node_казеин",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "включают казеин",
+    "chunks": [
+      "chunk_24"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 4. Химическая организация клетки",
+        "subtopic": "Белки"
+      }
+    ]
+  },
+  {
+    "id": "edge_07b97210-8b38-4754-8948-54119fdd0c13_0",
+    "source_id": "rp_node_гены_182",
+    "target_id": "node_belki_perenoschiki",
+    "relation_type": "causal",
+    "strength": 5,
+    "description": "кодируют",
+    "chunks": [
+      "chunk_25"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 7. Наследственная информация и реализация её в клетке",
+        "subtopic": "Реализация наследственной информации"
+      }
+    ]
+  },
+  {
+    "id": "edge_191f6c8a-5512-4154-8fab-70c6e2d2004c_1",
+    "source_id": "node_belki_perenoschiki",
+    "target_id": "rp_node_плазматическая_мембрана_98",
+    "relation_type": "logical",
+    "strength": 4,
+    "description": "транспортируют через мембрану ионы и низкомолекулярные соединения",
+    "chunks": [
+      "chunk_25"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 7. Наследственная информация и реализация её в клетке",
+        "subtopic": "Реализация наследственной информации"
+      }
+    ]
+  },
+  {
+    "id": "edge_efee2d33-b1ee-45c1-975d-3a82225208f7_2",
+    "source_id": "rp_node_геном_183",
+    "target_id": "rp_node_гены_182",
+    "relation_type": "structural",
+    "strength": 4,
+    "description": "содержит",
+    "chunks": [
+      "chunk_25"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 7. Наследственная информация и реализация её в клетке",
+        "subtopic": "Организация генома у прокариот и эукариот"
+      }
+    ]
+  },
+  {
+    "id": "edge_fe36c7b5-2c72-4012-8d4b-4e0587d6fcaa_3",
+    "source_id": "node_zapasnye_tkani",
+    "target_id": "rp_node_белки_61",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "содержат",
+    "chunks": [
+      "chunk_25"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 7. Наследственная информация и реализация её в клетке",
+        "subtopic": null
+      }
+    ]
+  },
+  {
+    "id": "edge_9ed3f70c-dae2-4dee-9415-5a4632091c71_4",
+    "source_id": "node_semena_rasteniy",
+    "target_id": "node_zapasnye_tkani",
+    "relation_type": "structural",
+    "strength": 3,
+    "description": "содержат",
+    "chunks": [
+      "chunk_25"
+    ],
+    "meta": [
+      {
+        "subject": "UnknownSubject",
+        "grade": "UnknownGrade",
+        "topic": "Тема 7. Наследственная информация и реализация её в клетке",
+        "subtopic": null
+      }
+    ]
+  }
+]
