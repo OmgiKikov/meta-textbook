@@ -1,0 +1,8 @@
+streamlit
+openai
+networkx
+pyvis
+pymupdf
+uuid
+streamlit-agraph
+numpy 
