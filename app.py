@@ -301,25 +301,25 @@ st.title("📚 Meta-Textbook Graph Builder")
 
 st.markdown("Upload a Work Program (RP) file and a Book file (PDF, TXT, MD) to build the knowledge graph.")
 
-# --- File Uploaders (Accept PDF) ---
-upload_col1, upload_col2 = st.columns(2)
-with upload_col1:
-    # Allow PDF, TXT, MD
-    rp_file = st.file_uploader("Upload Work Program (RP)", type=["pdf", "txt", "md"], key="rp_uploader", disabled=True)
-with upload_col2:
-    # Allow PDF, TXT, MD
-    book_file = st.file_uploader("Upload Book File", type=["pdf", "txt", "md"], key="book_uploader", disabled=True)
+# # --- File Uploaders (Accept PDF) ---
+# upload_col1, upload_col2 = st.columns(2)
+# with upload_col1:
+#     # Allow PDF, TXT, MD
+#     rp_file = st.file_uploader("Upload Work Program (RP)", type=["pdf", "txt", "md"], key="rp_uploader", disabled=True)
+# with upload_col2:
+#     # Allow PDF, TXT, MD
+#     book_file = st.file_uploader("Upload Book File", type=["pdf", "txt", "md"], key="book_uploader", disabled=True)
 
-# --- API Key Inputs ---
-key_col1, key_col2 = st.columns(2)
-with key_col1:
-    openrouter_api_key = st.text_input("OpenRouter API Key (for Chat Model):", type="password", key="api_key_input_or")
-with key_col2:
-    # Added input for direct OpenAI API key for embeddings
-    openai_api_key_embed = st.text_input("OpenAI API Key (for Embeddings):", type="password", key="api_key_input_oai")
+# # --- API Key Inputs ---
+# key_col1, key_col2 = st.columns(2)
+# with key_col1:
+#     openrouter_api_key = st.text_input("OpenRouter API Key (for Chat Model):", type="password", key="api_key_input_or")
+# with key_col2:
+#     # Added input for direct OpenAI API key for embeddings
+#     openai_api_key_embed = st.text_input("OpenAI API Key (for Embeddings):", type="password", key="api_key_input_oai")
 
-# --- Processing Button ---
-process_button_clicked = st.button("🚀 Process Files & Build Graph", key="process_button", disabled=True)
+# # --- Processing Button ---
+# process_button_clicked = st.button("🚀 Process Files & Build Graph", key="process_button", disabled=True)
 
 # --- Filtering Controls (Now separate from main input) ---
 st.sidebar.title("Display Options")
