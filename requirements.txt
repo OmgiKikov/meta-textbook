@@ -5,4 +5,5 @@ pyvis
 pymupdf
 uuid
 streamlit-agraph
-numpy 
+numpy
+chromadb 
