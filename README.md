@@ -1,126 +1,209 @@
 # Meta-Textbook
 
-Интерактивная образовательная платформа с визуализацией знаний в виде графа и майндмэпов.
+Интерактивная образовательная платформа для изучения школьных предметов через графы знаний, майндмэпы и AI-чат.
 
-## Описание проекта
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.95+-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Meta-Textbook — веб-приложение для изучения различных предметов через интерактивные графы знаний и майндмэпы. Система использует AI (OpenRouter, GigaChat) для генерации структурированного представления учебного материала и интерактивного диалога с пользователем.
+---
 
-Поддерживаемые предметы: биология, физика, история.
+## Что это
 
-## Основные функции
+Meta-Textbook строит интерактивные графы знаний из учебников и рабочих программ с помощью AI. Пользователь видит структуру предмета в виде графа, может углубляться в любой узел, открывать майндмэпы и задавать вопросы AI-ассистенту.
 
-- Визуализация знаний в виде интерактивного графа (D3.js)
-- Майндмэпы с возможностью расширения и углубления (Markmap)
-- Чат с AI-ассистентом по теме
-- Генерация графов знаний из PDF-учебников и рабочих программ
-- Поддержка разных уровней сложности (школьный, университетский, продвинутый)
-- REST API для работы с графами знаний
+**Предметы:** биология, физика, история (готовые графы включены в репозиторий).
+
+### Ключевые возможности
+
+- **Граф знаний** — интерактивная визуализация связей между понятиями (D3.js)
+- **Майндмэпы** — древовидное представление тем с возможностью раскрытия (Markmap)
+- **AI-чат** — диалог с ассистентом по выбранной теме (GigaChat / OpenRouter)
+- **Генерация графов** — автоматическое построение из PDF-учебников и рабочих программ
+- **Уровни сложности** — школьный, университетский, продвинутый
+
+---
 
 ## Технический стек
 
-### Фронтенд
-- Next.js 15 / React 19
-- TypeScript
-- Tailwind CSS
-- D3.js (визуализация графа)
-- Markmap (майндмэпы)
-- Vercel AI SDK
+| Слой | Технологии |
+|------|-----------|
+| **Фронтенд** | Next.js 15, React 19, TypeScript, Tailwind CSS, Radix UI |
+| **Визуализация** | D3.js (граф), Markmap (майндмэпы), Recharts (графики) |
+| **Бэкенд** | FastAPI, Uvicorn, Pydantic |
+| **AI / LLM** | GigaChat (Sber), OpenRouter (GPT и др.) |
+| **Обработка данных** | ChromaDB (эмбеддинги), PyMuPDF (PDF), NetworkX |
+| **Деплой** | Docker, Docker Compose |
 
-### Бэкенд
-- FastAPI (Python)
-- OpenRouter API (доступ к LLM)
-- GigaChat API (Sber)
-- ChromaDB (векторное хранилище)
-- PyMuPDF (обработка PDF)
+---
 
-## Установка и запуск
+## Быстрый старт
 
 ### Требования
-- Node.js 18+
-- Python 3.10+
-- Docker (опционально)
 
-### Установка зависимостей
+- **Python** 3.10+
+- **Node.js** 18+ и **pnpm**
+- **Docker** (опционально, для деплоя)
+
+### 1. Клонирование
 
 ```bash
 git clone https://github.com/OmgiKikov/meta-textbook.git
 cd meta-textbook
 ```
 
-#### Бэкенд (Python)
-```bash
-python -m venv .venv
-source .venv/bin/activate  # На Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
+### 2. Настройка переменных окружения
 
-#### Фронтенд (Next.js)
-```bash
-cd frontend
-pnpm install  # или npm install
-```
+Создайте файл **`.env`** в корне проекта:
 
-### Настройка окружения
-
-1. Создайте файл `.env` в корне проекта:
-```
+```env
+# === OpenRouter (основной LLM для генерации графов) ===
 OPENROUTER_API_KEY=your_openrouter_api_key
-OPENAI_API_KEY=your_openai_api_key
-SECRET_KEY=your_gigachat_secret
-SCOPE=your_gigachat_scope
+
+# === GigaChat (Sber, AI-чат с пользователем) ===
+SECRET_KEY=your_gigachat_secret_key
+SCOPE=GIGACHAT_API_PERS
+GIGA_HOST=https://gigachat.devices.sberbank.ru/api/v1/chat/completions
+GIGA_MODEL=GigaChat
+OAUTH_URL=https://ngw.devices.sberbank.ru:9443/api/v2/oauth
+API_URL=https://gigachat.devices.sberbank.ru/api/v1/
 ```
 
-2. Создайте файл `.env.local` в директории `frontend/`:
-```
+Создайте файл **`frontend/.env.local`**:
+
+```env
+# === Адрес бэкенда ===
 NEXT_PUBLIC_API_URL=http://localhost:8000
+
+# === OpenAI / OpenRouter (для чата и майндмэпов на фронте) ===
+OPENAI_API_KEY=your_openai_or_openrouter_api_key
 ```
 
-### Запуск
+### 3. Установка и запуск
 
-#### Режим разработки
+#### Вариант A: Локально (разработка)
 
-1. Бэкенд:
 ```bash
+# Бэкенд
+python -m venv .venv
+source .venv/bin/activate    # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-2. Фронтенд:
 ```bash
+# Фронтенд (в отдельном терминале)
 cd frontend
+pnpm install
 pnpm dev
 ```
 
-#### Docker
-
+Или одной командой (macOS):
 ```bash
-docker-compose up -d --build
+./run.sh
 ```
 
-Бэкенд: `http://localhost:1000`, Фронтенд: `http://localhost:3000`
+| Сервис | URL |
+|--------|-----|
+| Фронтенд | http://localhost:3000 |
+| Бэкенд API | http://localhost:8000 |
+| API Docs (Swagger) | http://localhost:8000/docs |
+
+#### Вариант B: Docker
+
+```bash
+# Всё в одном контейнере
+./deploy.sh
+# → http://localhost:1000
+
+# Или через Docker Compose (раздельные контейнеры)
+docker-compose up -d --build
+# → Бэкенд: http://localhost:1000
+# → Фронтенд: http://localhost:3000
+```
+
+---
 
 ## Структура проекта
 
 ```
-├── main.py                 # FastAPI сервер, API эндпоинты
-├── pipeline.py             # Пайплайн построения графа из PDF/текста
-├── llm_interface.py        # Интерфейс к LLM (OpenRouter)
-├── graph_structures.py     # Структуры данных графа (Node, Edge)
-├── graph_storage.py        # Сохранение/загрузка графов в JSON
-├── models.py               # Pydantic-модели для API
-├── parsers.py              # Парсинг текста
-├── utils.py                # Утилиты (чанкинг текста)
-├── giga_api_call/          # Интеграция с GigaChat API
-├── frontend/               # Next.js фронтенд
-│   ├── app/                # Страницы и API-маршруты
-│   ├── components/         # React-компоненты
-│   ├── lib/                # Вспомогательные функции
-│   └── styles/             # CSS
-├── biology_graph/          # Граф знаний: биология
-├── physics_graph/          # Граф знаний: физика
-├── history_graph/          # Граф знаний: история
-├── saved_graphs/           # Сохранённые графы
-├── Dockerfile              # Docker: бэкенд
-├── Dockerfile.server       # Docker: сервер
-└── docker-compose.yml      # Docker Compose конфигурация
+meta-textbook/
+│
+├── main.py                  # FastAPI-сервер, все API-эндпоинты
+├── pipeline.py              # Пайплайн: PDF → граф знаний
+├── llm_interface.py         # Вызовы LLM через OpenRouter
+├── graph_structures.py      # Модели данных: Node, Edge, Metadata
+├── graph_storage.py         # Сериализация графов в JSON
+├── models.py                # Pydantic-схемы для API
+├── parsers.py               # Парсинг текста
+├── utils.py                 # Утилиты (чанкинг текста)
+│
+├── giga_api_call/           # Обёртка над GigaChat API
+│   ├── main.py              # CLI-чатбот (пример)
+│   └── utils.py             # Авторизация, токены, запросы
+│
+├── frontend/                # Next.js-приложение
+│   ├── app/                 # Страницы и API-роуты
+│   │   └── api/             # chat, mindmap, node-edges, node-image
+│   ├── components/          # React-компоненты
+│   │   ├── d3-graph.tsx     # Визуализация графа (D3)
+│   │   ├── chat-panel.tsx   # Чат с AI
+│   │   ├── mindmap.tsx      # Майндмэп
+│   │   └── ui/              # Radix UI компоненты
+│   ├── lib/                 # API-клиент, утилиты, промпты
+│   └── styles/              # CSS
+│
+├── biology_graph/           # Готовый граф: Биология
+├── physics_graph/           # Готовый граф: Физика
+├── history_graph/           # Готовый граф: История
+├── saved_graphs/            # Сохранённые пользовательские графы
+│
+├── Dockerfile               # Сборка: фронт + бэк в одном образе
+├── Dockerfile.server        # Сборка: dev-режим в контейнере
+├── docker-compose.yml       # Compose: раздельные контейнеры
+├── deploy.sh                # Скрипт деплоя (Docker)
+├── deploy-server.sh         # Скрипт деплоя на сервер
+├── run.sh                   # Быстрый запуск (macOS)
+└── requirements.txt         # Python-зависимости
 ```
+
+---
+
+## API
+
+Бэкенд предоставляет REST API (документация доступна на `/docs`):
+
+| Метод | Эндпоинт | Описание |
+|-------|----------|----------|
+| `GET` | `/api/graph/{subject}` | Получить граф по предмету |
+| `GET` | `/api/graph/{subject}/nodes` | Список узлов графа |
+| `GET` | `/api/graph/{subject}/edges` | Список связей графа |
+| `GET` | `/api/graph/{subject}/node/{id}` | Детали узла |
+| `POST` | `/api/graph/{subject}/search` | Поиск по графу |
+| `POST` | `/api/graph/generate_questions` | Генерация вопросов по теме |
+| `POST` | `/api/chat` | Чат с AI по теме |
+| `POST` | `/api/build_graph` | Построить граф из PDF |
+
+---
+
+## Переменные окружения (справочник)
+
+### Бэкенд (`.env`)
+
+| Переменная | Обязательна | Описание |
+|-----------|:-----------:|----------|
+| `OPENROUTER_API_KEY` | да | Ключ OpenRouter для генерации графов |
+| `SECRET_KEY` | да | Секретный ключ GigaChat (Sber ID) |
+| `SCOPE` | да | OAuth scope GigaChat (`GIGACHAT_API_PERS` или `GIGACHAT_API_CORP`) |
+| `GIGA_HOST` | да | Эндпоинт GigaChat API |
+| `GIGA_MODEL` | да | Модель GigaChat (`GigaChat`, `GigaChat-Pro` и др.) |
+| `OAUTH_URL` | да | URL для получения OAuth-токена GigaChat |
+| `API_URL` | да | Базовый URL GigaChat API |
+
+### Фронтенд (`frontend/.env.local`)
+
+| Переменная | Обязательна | Описание |
+|-----------|:-----------:|----------|
+| `NEXT_PUBLIC_API_URL` | да | URL бэкенда (по умолчанию `http://localhost:8000`) |
+| `OPENAI_API_KEY` | да | Ключ для AI-чата и генерации майндмэпов на фронте |
