@@ -113,14 +113,12 @@ pnpm dev
 #### Вариант B: Docker
 
 ```bash
-# Всё в одном контейнере
 ./deploy.sh
 # → http://localhost:1000
 
-# Или через Docker Compose (раздельные контейнеры)
+# Или через Docker Compose
 docker-compose up -d --build
-# → Бэкенд: http://localhost:1000
-# → Фронтенд: http://localhost:3000
+# → http://localhost:1000
 ```
 
 ---
@@ -160,10 +158,8 @@ meta-textbook/
 ├── saved_graphs/            # Сохранённые пользовательские графы
 │
 ├── Dockerfile               # Сборка: фронт + бэк в одном образе
-├── Dockerfile.server        # Сборка: dev-режим в контейнере
-├── docker-compose.yml       # Compose: раздельные контейнеры
+├── docker-compose.yml       # Docker Compose конфигурация
 ├── deploy.sh                # Скрипт деплоя (Docker)
-├── deploy-server.sh         # Скрипт деплоя на сервер
 ├── run.sh                   # Быстрый запуск (macOS)
 └── requirements.txt         # Python-зависимости
 ```

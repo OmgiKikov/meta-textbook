@@ -7,30 +7,11 @@ services:
       dockerfile: Dockerfile
     ports:
       - "1000:1000"
-    volumes:
-      - ./:/app
-    environment:
-      - PYTHONUNBUFFERED=1
+    env_file:
+      - .env
     restart: unless-stopped
-    container_name: meta-textbook-backend
-
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    ports:
-      - "3000:1000"
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
-      - /app/.next
-    depends_on:
-      - backend
-    environment:
-      - NEXT_PUBLIC_API_URL=http://localhost:1000
-    restart: unless-stopped
-    container_name: meta-textbook-frontend
+    container_name: meta-textbook
 
 networks:
   default:
-    name: meta-textbook-network 
+    name: meta-textbook-network

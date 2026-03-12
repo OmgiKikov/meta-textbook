@@ -10,6 +10,7 @@ docker build -t meta-textbook:latest .
 echo "Запуск контейнера..."
 docker run -d --name meta-textbook \
   -p 1000:1000 \
+  --env-file .env \
   --restart unless-stopped \
   meta-textbook:latest
 
@@ -18,4 +19,4 @@ echo "Приложение доступно по адресу: http://localhost:
 echo ""
 echo "Для просмотра логов: docker logs -f meta-textbook"
 echo "Для остановки: docker stop meta-textbook"
-echo "Для удаления: docker rm meta-textbook" 
+echo "Для удаления: docker rm meta-textbook"
