@@ -1,0 +1,5 @@
+python-dotenv==1.0.1
+requests==2.32.3
+gigachat==0.1.38
+langchain-gigachat==0.3.4
+langchain==0.3.17
